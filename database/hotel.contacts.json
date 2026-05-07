@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "69e63c864e7d73bb1fbd4c3d"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "(+84) 368 040 363",
+  "message": "Rất tốt",
+  "status": "completed",
+  "type": "Dịch vụ",
+  "createdAt": {
+    "$date": "2026-04-20T14:47:34.188Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:45:02.037Z"
+  },
+  "__v": 0
+}]

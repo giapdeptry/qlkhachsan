@@ -1,0 +1,440 @@
+[{
+  "_id": {
+    "$oid": "68d6401343e41d8ccd954d07"
+  },
+  "roomName": "The Peak Suite at Landmark Plus",
+  "roomNumber": "101",
+  "roomType": "Standard",
+  "pricePerNight": 150000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758871571676.jpg",
+    "1758871571677.jpg",
+    "1758871571677.jpg"
+  ],
+  "description": "<p>iảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><p>Nhìn ra thành phố, The Peak Suite at Landmark Plus nằm ở TP. Hồ Chí Minh và có nhà hàng, bếp chung, quầy bar, khu vườn, hồ bơi ngoài trời mở quanh năm cũng như sân hiên. Chỗ nghỉ có WiFi miễn phí và chỗ đậu xe riêng có sẵn trong khuôn viên.</p><p><br></p><p>Khách sạn căn hộ có ban công nơi khách có thể nhìn ra hồ bơi, khu vực ghế ngồi, TV màn hình phẳng truyền hình vệ tinh, bếp đầy đủ tiện nghi gồm tủ lạnh và lò vi sóng, cùng phòng tắm riêng được trang bị vòi sen và đồ vệ sinh cá nhân miễn phí. Để thuận tiện hơn cho khách, chỗ nghỉ có thể cung cấp khăn tắm và khăn trải giường với khoản phụ phí.</p><p><br></p><p>Khuôn viên của The Peak Suite at Landmark Plus có sân chơi trẻ em và du khách có thể đi xe đạp ở khu vực gần đó.</p><p><br></p><p>Chỗ nghỉ cách Bảo tàng lịch sử Việt Nam 3.3 km. Sân bay Quốc tế Tân Sơn Nhất cách 8 km, đồng thời chỗ nghỉ có cung cấp dịch vụ đưa đón sân bay miễn phí.</p><p>Các cặp đôi đặc biệt thích địa điểm này — họ cho điểm&nbsp;</p><p>9<strong>,2</strong></p><p>&nbsp;khi đánh giá chuyến đi hai người.</p>",
+  "discount": 10,
+  "floor": 10,
+  "createdAt": {
+    "$date": "2025-09-26T07:26:11.690Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:26:11.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6404d43e41d8ccd954d0b"
+  },
+  "roomName": "Genesis Luxury Regal Cruise by Premier Group",
+  "roomNumber": "102",
+  "roomType": "Deluxe",
+  "pricePerNight": 200000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm",
+    "Ban công"
+  ],
+  "images": [
+    "1758871629327.jpg",
+    "1758871629328.jpg",
+    "1758871629328.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><h3><strong>Trải nghiệm dịch vụ đẳng cấp thế giới ở Genesis Luxury Regal Cruise by Premier Group</strong></h3><p>Genesis Luxury Regal Cruise by Premier Group is situated in Ha Long. The property is set at Tuan Chau Marina, Halong Bay. Guests can enjoy sea views.</p><p><br></p><p>All rooms in the cruise are equipped with a flat-screen TV. The rooms feature a wardrobe.</p><p><br></p><p>A continental breakfast is available every morning at Genesis Luxury Regal Cruise by Premier Group. At the accommodation you will find a restaurant serving Asian and Vietnamese cuisine. A gluten-free option can also be requested.</p><p><br></p><p>Genesis Luxury Regal Cruise by Premier Group offers 5-star accommodation with a hot tub and terrace.</p><p><br></p><p>The program may be changed slightly due to specific weather or tide conditions without prior notice to visitors. The time in the schedule is approximate only. The specific time will be informed by our tour guide on the day of departure.</p><p><br></p><p>All activities included in the program. Guests can completely choose to rest and enjoy the scenery on their own, without fully participating in the above-mentioned activities.</p><p><br></p><p> Estimated travel time is based on normal traffic conditions.</p><p><br></p><p> Departure time and activities have been fixed according to a schedule registered with the Bay Management Board, so you need to be on time. Any delays may result in trip suspension or inability to participate in sightseeing activities.</p><p><br></p><p>Staff at Genesis Luxury Regal Cruise by Premier Group are always available to provide advice at the reception. All customers to oblige to Genesis Cruise company standards and regulations and to follow the instructions of Genesis Cruise personnel at all times.</p><p><br></p><p>Vincom Plaza Ha Long is 20 km from the accommodation, while Queen Cable Car Station is 21 km from the property. Cat Bi International Airport is 69 km away.</p>",
+  "discount": 10,
+  "floor": 7,
+  "createdAt": {
+    "$date": "2025-09-26T07:27:09.336Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:27:09.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6408043e41d8ccd954d0f"
+  },
+  "roomName": "The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu",
+  "roomNumber": "103",
+  "roomType": "VIP",
+  "pricePerNight": 250000,
+  "maxAdults": 4,
+  "maxChildren": 4,
+  "amenities": [
+    "WiFi",
+    "Mini Bar",
+    "TV",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758871680746.jpg",
+    "1758871680747.jpg",
+    "1758871680747.jpg",
+    "1758871680747.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><h3><strong>Trải nghiệm dịch vụ đẳng cấp thế giới ở The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu</strong></h3><p>Cách Bãi Sau chưa đến 1 km, The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu có hồ bơi ngoài trời, khu vườn, điều hòa, sân hiên và Wi-Fi miễn phí. Chỗ đậu xe riêng có sẵn trong khuôn viên.</p><p><br></p><p>Mỗi căn được thiết kế gồm bếp đầy đủ tiện nghi với bàn ăn, TV màn hình phẳng có truyền hình vệ tinh, cùng phòng tắm riêng có vòi xịt/chậu rửa vệ sinh, đồ vệ sinh cá nhân miễn phí và máy sấy tóc. Một số căn có ban công và/hoặc sân trong nhìn ra thành phố.</p><p><br></p><p>Khách có thể tìm thấy khu vực bãi biển riêng tại căn hộ, cùng phòng chờ chung.</p><p><br></p><p>The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu cách Tượng Chúa Ki-tô 3.3 km. Sân bay Quốc tế Tân Sơn Nhất cách 98 km, đồng thời chỗ nghỉ có cung cấp dịch vụ đưa đón sân bay mất phí.</p>",
+  "discount": 10,
+  "floor": 3,
+  "createdAt": {
+    "$date": "2025-09-26T07:28:00.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:28:00.757Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d640ba43e41d8ccd954d13"
+  },
+  "roomName": "The Song Premium Apartment - Căn Hộ Du Lịch Biển - Anh Khoa Homestay",
+  "roomNumber": "104",
+  "roomType": "Deluxe",
+  "pricePerNight": 140000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758871738597.jpg",
+    "1758871738597.jpg",
+    "1758871738597.jpg",
+    "1758871738598.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><h3><strong>Trải nghiệm dịch vụ đẳng cấp thế giới ở The Song Premium Apartment - Căn Hộ Du Lịch Biển - Anh Khoa Homestay</strong></h3><p>Với hồ bơi, khu vườn, khu vực bãi biển riêng và nhìn ra biển, The Song Premium Apartment - Căn Hộ Du Lịch Biển - Anh Khoa Homestay nằm ở Vũng Tàu cung cấp chỗ nghỉ có Wi-Fi miễn phí.</p><p><br></p><p>Căn hộ có sân hiên nơi khách có thể nhìn ra thành phố, khu vực ghế ngồi, TV màn hình phẳng truyền hình vệ tinh, bếp đầy đủ tiện nghi gồm tủ lạnh và bếp, cùng phòng tắm riêng được trang bị vòi sen và đồ vệ sinh cá nhân miễn phí.</p><p><br></p><p>Chỗ nghỉ có sân chơi và câu lạc bộ trẻ em hay tổ chức nhiều hoạt động khác nhau.</p><p><br></p><p>The Song Premium Apartment - Căn Hộ Du Lịch Biển - Anh Khoa Homestay cách Bãi Sau chưa đến 1 km. Sân bay Quốc tế Tân Sơn Nhất cách 98 km, đồng thời chỗ nghỉ có cung cấp dịch vụ đưa đón sân bay mất phí.</p>",
+  "discount": 0,
+  "floor": 5,
+  "createdAt": {
+    "$date": "2025-09-26T07:28:58.604Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:28:58.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d640e943e41d8ccd954d17"
+  },
+  "roomName": "Mekong Riverside Boutique Resort & Spa",
+  "roomNumber": "105",
+  "roomType": "Standard",
+  "pricePerNight": 170000,
+  "maxAdults": 5,
+  "maxChildren": 3,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758871785064.jpg",
+    "1758871785064.jpg",
+    "1758871785065.jpg",
+    "1758871785065.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><p>Nằm giữa khu vườn trái cây nhiệt đới tươi tốt, Mekong Riverside Boutique Resort &amp; Spa cung cấp Wi-Fi miễn phí và hồ bơi ngoài trời. Nơi nghỉ này cách Chợ Nổi Cái Bè 1,5 km.</p><p><br></p><p>Du khách có thể dùng bữa tại Nhà hàng Medley phục vụ ẩm thực Việt Nam và quốc tế ngay trong khuôn viên chỗ ở này hoặc chỉ đơn giản là thư giãn tại các quầy bar bên hồ bơi và bên lễ tân.</p><p><br></p><p>Quầy lễ tân 24 giờ có thể hỗ trợ khách với dịch vụ cho thuê xe đạp, dịch vụ giặt thường và giặt hấp. Du khách có thể tham gia các hoạt động như câu cá, chèo thuyền kayak, bơi xuồng và đi bộ đường dài. Khu nghỉ mát còn có tiện nghi BBQ cũng như trung tâm spa và chăm sóc sức khỏe.</p><p><br></p><p>Với tầm nhìn tuyệt đẹp, các phòng nghỉ máy lạnh tại đây được trang bị truyền hình cáp màn hình phẳng, ghế sofa, minibar và ban công rộng rãi. Các phòng tắm riêng đi kèm với tiện nghi vòi sen và đồ vệ sinh cá nhân miễn phí.</p><p><br></p><p>Mekong Riverside Boutique Resort &amp; Spa nằm trong bán kính 60 km từ Thành phố Cần Thơ và 120 km từ Thành phố Hồ Chí Minh.</p><p><br></p>",
+  "discount": 0,
+  "floor": 7,
+  "createdAt": {
+    "$date": "2025-09-26T07:29:45.074Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:29:45.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6413443e41d8ccd954d2c"
+  },
+  "roomName": "The Pearl Hoi An",
+  "roomNumber": "106",
+  "roomType": "Deluxe",
+  "pricePerNight": 500000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa"
+  ],
+  "images": [
+    "1758871860322.jpg",
+    "1758871860322.jpg",
+    "1758871860322.jpg",
+    "1758871860322.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><h3><strong>Tận hưởng dịch vụ đỉnh cao, đẳng cấp thế giới tại The Pearl Hoi An</strong></h3><p>The Pearl Hoi An có hồ bơi ngoài trời, trung tâm thể dục, khu vườn và khu vực bãi biển riêng ở Hội An. Chỗ nghỉ này có các tiện nghi như nhà hàng, quầy bar, cũng như sân tennis. Chỗ nghỉ cung cấp lễ tân 24/24, dịch vụ đưa đón sân bay, dịch vụ phòng và Wi-Fi miễn phí ở toàn bộ chỗ nghỉ.</p><p><br></p><p>Khách sạn sẽ cung cấp cho du khách các phòng có điều hòa, bàn làm việc, ấm đun nước, tủ lạnh, két an toàn, TV màn hình phẳng, ban công, phòng tắm riêng và vòi sen. Một số phòng có bếp với lò vi sóng và lò nướng. Tại The Pearl Hoi An, mỗi phòng đều có ga trải giường và khăn tắm.</p><p><br></p><p>Chỗ nghỉ có phục vụ bữa sáng, gồm các lựa chọn thực đơn buffet, kiểu Mỹ và kiểu Á.</p><p><br></p><p>Chỗ nghỉ có sân chơi trẻ em.</p><p><br></p><p>The Pearl Hoi An cách Bãi biển Hà My 2 phút đi bộ và Bảo tàng lịch sử Hội An 7.6 km.</p><p>Các cặp đôi đặc biệt thích địa điểm này — họ cho điểm&nbsp;</p><p>8<strong>,4</strong></p><p>&nbsp;khi đánh giá chuyến đi hai người.</p>",
+  "discount": 10,
+  "floor": 21,
+  "createdAt": {
+    "$date": "2025-09-26T07:31:00.332Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:31:00.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6416243e41d8ccd954d30"
+  },
+  "roomName": "Calista Cruise - A Ha Long Bay Spectacle",
+  "roomNumber": "107",
+  "roomType": "VIP",
+  "pricePerNight": 150000,
+  "maxAdults": 4,
+  "maxChildren": 4,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758871906011.jpg",
+    "1758871906012.jpg",
+    "1758871906012.jpg",
+    "1758871906012.jpg"
+  ],
+  "description": "<h3><strong>Trải nghiệm dịch vụ đẳng cấp thế giới ở Calista Cruise - A Ha Long Bay Spectacle</strong></h3><p>Nằm cách Cảng Tuần Châu 3.8 km, Calista Cruise - A Ha Long Bay Spectacle cung cấp chỗ nghỉ 5 sao ở Hạ Long, đồng thời có sân hiên, nhà hàng và quầy bar. Chỗ nghỉ này có các tiện nghi như dịch vụ phòng và quầy lễ tân 24 giờ, cùng với Wi-Fi miễn phí ở toàn bộ chỗ nghỉ. Du thuyền cung cấp hồ bơi ngoài trời, trung tâm thể dục, hoạt động giải trí vào buổi tối và câu lạc bộ trẻ em.</p><p><br></p><p>Du thuyền sẽ cung cấp cho khách các phòng có điều hòa, bàn làm việc, ấm đun nước, tủ lạnh, minibar, két an toàn, TV màn hình phẳng, ban công, phòng tắm riêng và vòi xịt/chậu rửa vệ sinh. Tại Calista Cruise - A Ha Long Bay Spectacle, các phòng đều đi kèm với ga trải giường và khăn tắm.</p><p><br></p><p>Chỗ nghỉ có phục vụ bữa sáng thực đơn buffet.</p><p><br></p><p>Tại Calista Cruise - A Ha Long Bay Spectacle, khách có thể sử dụng bể sục. Câu cá là hoạt động được ưa chuộng trong khu vực. Ngoài ra, du thuyền có dịch vụ thuê ô tô.</p><p><br></p><p>Calista Cruise - A Ha Long Bay Spectacle cách Cáp treo Nữ Hoàng 15 km. Sân bay Quốc tế Cát Bi cách 40 km, đồng thời chỗ nghỉ có cung cấp dịch vụ đưa đón sân bay mất phí.</p><p>Các cặp đôi đặc biệt thích địa điểm này — họ cho điểm&nbsp;</p><p>9,<strong>8</strong></p><p>&nbsp;khi đánh giá chuyến đi hai người.</p>",
+  "discount": 20,
+  "floor": 6,
+  "createdAt": {
+    "$date": "2025-09-26T07:31:46.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:31:46.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6419a43e41d8ccd954d34"
+  },
+  "roomName": "Bến Đò Xưa Homestay & Coffee",
+  "roomNumber": "110",
+  "roomType": "Standard",
+  "pricePerNight": 350000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758871962035.jpg",
+    "1758871962035.jpg",
+    "1758871962036.jpg",
+    "1758871962036.jpg",
+    "1758871962036.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><p>Cách Trung tâm thương mại Vincom Xuân Khánh 5.2 km, Bến Đò Xưa Homestay &amp; Coffee có hồ bơi ngoài trời, khu vườn, điều hòa, sân hiên và Wi-Fi miễn phí.</p><p><br></p><p>Nơi đây còn có phòng tắm riêng với vòi xịt/chậu rửa vệ sinh ở tất cả các căn, cùng đồ vệ sinh cá nhân miễn phí, máy sấy tóc và dép đi trong phòng.</p><p><br></p><p>Khách sạn căn hộ có phục vụ bữa sáng thực đơn buffet hoặc kiểu Á.</p><p><br></p><p>Bến Đò Xưa Homestay &amp; Coffee có dịch vụ cho thuê xe đạp.</p><p><br></p><p>Chỗ nghỉ cách Bến Ninh Kiều 7.3 km và Vincom Plaza Hùng Vương 7.4 km.</p><p>Các cặp đôi đặc biệt thích địa điểm này — họ cho điểm&nbsp;</p><p>8<strong>,1</strong></p><p>&nbsp;khi đánh giá chuyến đi hai người.</p>",
+  "discount": 10,
+  "floor": 20,
+  "createdAt": {
+    "$date": "2025-09-26T07:32:42.042Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:32:42.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d641df43e41d8ccd954d3f"
+  },
+  "roomName": "Hoi An Golden Holiday Hotel & Spa",
+  "roomNumber": "121",
+  "roomType": "VIP",
+  "pricePerNight": 350000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758872031173.jpg",
+    "1758872031173.jpg",
+    "1758872031173.jpg",
+    "1758872031173.jpg",
+    "1758872031174.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><p>Nằm cách Bãi biển An Bàng và trung tâm thành phố Hội An 5 phút lái xe, Hoi An Golden Holiday Hotel &amp; Spa có phòng nghỉ giá cả phải chăng với TV màn hình phẳng. Chỗ nghỉ này cung cấp miễn phí cả WiFi lẫn chỗ đỗ xe.</p><p><br></p><p>Nhìn ra đường chân trời của thành phố Hội An, phòng nghỉ hiện đại tại Hoi An Golden Holiday Hotel &amp; Spa được trang bị TV truyền hình vệ tinh, két an toàn, ấm đun nước điện và minibar. Phòng tắm riêng đi kèm đồ vệ sinh cá nhân và máy sấy tóc.</p><p><br></p><p>Du khách có thể thư giãn bên hồ bơi ngoài trời. Nhân viên tại quầy lễ tân 24 giờ có thể cung cấp dịch vụ cho thuê xe hơi và dịch vụ đưa đón sân bay. Bàn đặt tour với dịch vụ đặt vé có thể giúp du khách sắp xếp việc đi tham quan.</p><p><br></p><p>Nhà hàng của Hoi An Golden Holiday Hotel &amp; Spa phục vụ một loạt đặc sản địa phương, các món ăn Châu Âu - Châu Á.</p><p><br></p><p>Hoi An Golden Holiday Hotel &amp; Spa nằm trong bán kính 35 km từ sân bay quốc tế Đà Nẵng.</p>",
+  "discount": 15,
+  "floor": 1,
+  "createdAt": {
+    "$date": "2025-09-26T07:33:51.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:33:51.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6427943e41d8ccd954d46"
+  },
+  "roomName": "Grand Fusion Point Hotel",
+  "roomNumber": "122",
+  "roomType": "Deluxe",
+  "pricePerNight": 200000,
+  "maxAdults": 10,
+  "maxChildren": 10,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Bồn tắm",
+    "Ban công"
+  ],
+  "images": [
+    "1758872185145.jpg",
+    "1758872185145.jpg",
+    "1758872185145.jpg",
+    "1758872185146.jpg"
+  ],
+  "description": "<p>Giảm giá Genius tại chỗ nghỉ này tùy thuộc vào ngày đặt phòng, ngày lưu trú và các ưu đãi có sẵn khác.</p><p>Tọa lạc ở Huế, cách Cầu Tràng Tiền 12 phút đi bộ, Grand Fusion Point Hotel cung cấp chỗ nghỉ có khu vườn, chỗ đậu xe riêng miễn phí, phòng chờ chung và sân hiên. Khách sạn 3 sao này có dịch vụ tiền sảnh và bàn bán tour. Chỗ nghỉ cung cấp lễ tân 24/24, dịch vụ đưa đón sân bay, dịch vụ phòng và Wi-Fi miễn phí.</p><p><br></p><p>Khách sạn sẽ cung cấp cho khách các phòng được trang bị điều hòa có bàn làm việc, ấm đun nước, tủ lạnh, két an toàn, TV màn hình phẳng và phòng tắm riêng với vòi sen. Tại Grand Fusion Point Hotel, mỗi phòng đều được thiết kế có ga trải giường và khăn tắm.</p><p><br></p><p>Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Chợ Đông Ba, Cung An Định và Redemptorist Church. Sân bay quốc tế Phú Bài cách 13 km.</p>",
+  "discount": 10,
+  "floor": 10,
+  "createdAt": {
+    "$date": "2025-09-26T07:36:25.174Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:36:25.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d642fd43e41d8ccd954d51"
+  },
+  "roomName": "Langco Bay Retreat",
+  "roomNumber": "131",
+  "roomType": "VIP",
+  "pricePerNight": 550000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa",
+    "Bồn tắm"
+  ],
+  "images": [
+    "1758872317048.jpg",
+    "1758872317049.jpg",
+    "1758872317049.jpg",
+    "1758872317049.jpg"
+  ],
+  "description": "<p><span style=\"color: rgb(26, 26, 26);\">Tọa lạc ở Lăng Cô, cách Bãi biển Lăng Cô 3 phút đi bộ, Langco Bay Retreat cung cấp chỗ nghỉ có trung tâm thể dục, chỗ đậu xe riêng miễn phí, khu vườn và khu vực bãi biển riêng. Ngoài dịch vụ phòng, chỗ nghỉ này còn có nhà hàng và hồ bơi ngoài trời để phục vụ du khách. Chỗ nghỉ cung cấp lễ tân 24/24, dịch vụ đưa đón sân bay, câu lạc bộ trẻ em và Wi-Fi miễn phí ở toàn bộ chỗ nghỉ.</span></p><p><br></p><p><span style=\"color: rgb(26, 26, 26);\">Tại resort, tất cả các phòng đều được thiết kế có điều hòa, khu vực ghế ngồi, TV màn hình phẳng có truyền hình vệ tinh, két an toàn, phòng tắm riêng, vòi xịt/chậu rửa vệ sinh, đồ vệ sinh cá nhân miễn phí và máy sấy tóc. Tất cả các phòng đều có ấm đun nước, trong đó một số phòng có ban công và một số khác thì nhìn ra biển. Tại Langco Bay Retreat, phòng nào cũng có ga trải giường và khăn tắm.</span></p><p><br></p><p><span style=\"color: rgb(26, 26, 26);\">Chỗ nghỉ có phục vụ bữa sáng, gồm các lựa chọn thực đơn buffet, thực đơn à la carte và kiểu Mỹ.</span></p><p><br></p><p><span style=\"color: rgb(26, 26, 26);\">Chỗ nghỉ có sân hiên. Khách có thể chơi đánh tennis tại resort 5 sao này.</span></p><p><br></p><p><span style=\"color: rgb(26, 26, 26);\">Langco Bay Retreat cách Trung tâm thương mại Indochina Riverside 31 km và Cầu sông Hàn 31 km.</span></p>",
+  "discount": 20,
+  "floor": 10,
+  "createdAt": {
+    "$date": "2025-09-26T07:38:37.057Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:38:37.057Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d6432743e41d8ccd954d5c"
+  },
+  "roomName": "LeParc Hotel - Ben Thanh Market",
+  "roomNumber": "141",
+  "roomType": "Deluxe",
+  "pricePerNight": 400000,
+  "maxAdults": 2,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Mini Bar",
+    "Điều hòa"
+  ],
+  "images": [
+    "1758872359637.jpg",
+    "1758872359637.jpg",
+    "1758872359637.jpg",
+    "1758872359637.jpg"
+  ],
+  "description": "<p>Nằm tại vị trí thuận tiện ở TP. Hồ Chí Minh, LeParc Hotel - Ben Thanh Market cung cấp các phòng có điều hòa, khu vườn, Wi-Fi miễn phí và sân hiên. Khách sạn 3 sao này có dịch vụ phòng và quầy lễ tân 24 giờ. Đây là chỗ nghỉ không hút thuốc và tọa lạc cách Chợ Bến Thành 4 phút đi bộ.</p><p><br></p><p>Tất cả các căn tại khách sạn được trang bị khu vực ghế ngồi, TV màn hình phẳng và két an toàn. Tại LeParc Hotel - Ben Thanh Market, tất cả các phòng đều được thiết kế có phòng tắm riêng với đồ vệ sinh cá nhân miễn phí và máy sấy tóc.</p><p><br></p><p>Tại chỗ nghỉ, khách sẽ tìm thấy nhà hàng phục vụ ẩm thực Việt. Bên cạnh đó, họ có thể yêu cầu món chay, không chứa sữa và đồ ăn Halal.</p><p><br></p><p>Các điểm tham quan nổi tiếng gần LeParc Hotel - Ben Thanh Market bao gồm Công viên Tao Đàn, Bảo tàng Mỹ thuật và Bảo tàng Thành phố Hồ Chí Minh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.</p><p><br></p>",
+  "discount": 10,
+  "floor": 6,
+  "createdAt": {
+    "$date": "2025-09-26T07:39:19.647Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T07:39:19.647Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d65685369aa3917ebd6eb4"
+  },
+  "roomName": "MAY DE VILLE Corner Hotel",
+  "roomNumber": "212",
+  "roomType": "VIP",
+  "pricePerNight": 150000,
+  "maxAdults": 5,
+  "maxChildren": 5,
+  "amenities": [
+    "WiFi",
+    "TV",
+    "Điều hòa",
+    "Bồn tắm",
+    "Ban công",
+    "Mini Bar"
+  ],
+  "images": [
+    "1758877317391.jpg",
+    "1758877317392.jpg",
+    "1758877317392.jpg"
+  ],
+  "description": "<p>asdjabskasavsvasdafaf</p>",
+  "discount": 50,
+  "floor": 50,
+  "createdAt": {
+    "$date": "2025-09-26T09:01:57.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-26T09:01:57.403Z"
+  },
+  "__v": 0
+}]

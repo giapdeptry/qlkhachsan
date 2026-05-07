@@ -1,0 +1,400 @@
+[{
+  "_id": {
+    "$oid": "69c1ddfedc02dabcc472b0fc"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "user",
+  "content": "hello",
+  "timestamp": {
+    "$date": "2026-03-24T00:42:38.801Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-24T00:42:38.805Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-24T00:42:38.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c1ddfedc02dabcc472b0fe"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "bot",
+  "content": "Xin chào! Bạn cần phòng cho bao nhiêu người và thời gian lưu trú là bao lâu? Chúng tôi có nhiều phòng đẹp với giá cả hợp lý. Tôi có thể đề xuất một số phòng phù hợp với bạn.\n\nBạn có thể tham khảo phòng \"The Peak Suite at Landmark Plus\" hoặc \"Genesis Luxury Regal Cruise by Premier Group\", cả hai đều có giá giảm 10% và nhiều tiện nghi như WiFi, TV, Mini Bar, Điều hòa, Bồn tắm.\n\nNếu bạn muốn phòng có ban công, tôi có thể đề xuất phòng \"Grand Fusion Point Hotel\" hoặc \"LeParc Hotel - Ben Thanh Market\".\n\nChúng tôi chưa có khách đặt phòng nào vào ngày mai, nên bạn có thể đặt phòng ngay hôm nay.\n\nNếu bạn cần thêm dịch vụ như ăn sáng, spa, hoặc xe đưa đón, chúng tôi cũng có thể cung cấp cho bạn.\n\nBạn muốn tôi giúp gì tiếp theo?",
+  "timestamp": {
+    "$date": "2026-03-24T00:42:38.809Z"
+  },
+  "createdAt": {
+    "$date": "2026-03-24T00:42:38.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-24T00:42:38.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e62f482a1d7118721e89d1"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "user",
+  "content": "tôi muốn 1 phòng có view biển",
+  "timestamp": {
+    "$date": "2026-04-20T13:51:04.398Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:51:04.400Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:51:04.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e62f482a1d7118721e89d3"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "bot",
+  "content": "Xin chào! Nếu bạn đang tìm phòng có view biển, tôi có một số gợi ý tuyệt vời cho bạn. Tuy nhiên, trong danh sách phòng của chúng tôi, không có phòng nào có view biển cụ thể. Nhưng một số phòng có thể có view tuyệt vời hoặc gần biển.\n\nTôi đề xuất phòng \"The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu\" (VIP) hoặc \"MAY DE VILLE Corner Hotel\" (VIP). Cả hai phòng đều có nhiều tiện nghi và giá cả hợp lý, đặc biệt là \"MAY DE VILLE Corner Hotel\" đang có giảm giá 50%.\n\nLưu ý rằng phòng \"The Peak Suite at Landmark Plus\" đã được đặt từ 17/4/2026 đến 20/4/2026, nên bạn hãy tránh trùng lịch trong khoảng thời gian này.\n\nNếu bạn chọn một trong những phòng trên, chúng tôi cũng cung cấp dịch vụ ăn sáng, spa, và xe đưa đón để làm cho chuyến đi của bạn trở nên hoàn hảo hơn.\n\nBạn muốn biết thêm thông tin về những phòng này hay không?",
+  "timestamp": {
+    "$date": "2026-04-20T13:51:04.427Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:51:04.428Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:51:04.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e62f732a1d7118721e89e6"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "user",
+  "content": "tôi có",
+  "timestamp": {
+    "$date": "2026-04-20T13:51:47.182Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:51:47.183Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:51:47.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e62f732a1d7118721e89e8"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "bot",
+  "content": "Chào bạn, cảm ơn bạn đã quan tâm đến khách sạn của chúng tôi. Chúng tôi có nhiều phòng trống với giá cả hợp lý và nhiều tiện nghi.\n\nBạn có thể tham khảo một số phòng sau:\n\n- Genesis Luxury Regal Cruise by Premier Group: Giá 200.000đ (giảm 10%), sức chứa 5 người lớn và 5 trẻ em, tiện nghi đầy đủ như TV, Mini Bar, Điều hòa, Bồn tắm, Ban công.\n- The Song Premium Apartment: Giá 140.000đ, sức chứa 5 người lớn và 5 trẻ em, tiện nghi đầy đủ như WiFi, TV, Mini Bar, Điều hòa, Bồn tắm.\n- Mekong Riverside Boutique Resort & Spa: Giá 170.000đ, sức chứa 5 người lớn và 3 trẻ em, tiện nghi đầy đủ như WiFi, TV, Mini Bar, Điều hòa, Bồn tắm.\n\nLưu ý rằng phòng The Peak Suite at Landmark Plus đã được đặt từ ngày 17/4/2026 đến 20/4/2026, nên bạn nên tránh đặt phòng trong khoảng thời gian này.\n\nNếu bạn chọn phòng, chúng tôi cũng có thể cung cấp thêm dịch vụ như ăn sáng, spa, xe đưa đón với giá cả hợp lý. Hãy cho chúng tôi biết nếu bạn cần thêm thông tin hoặc muốn đặt phòng!",
+  "timestamp": {
+    "$date": "2026-04-20T13:51:47.185Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:51:47.185Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:51:47.185Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e630f94e7d73bb1fbd4b2b"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "user",
+  "content": "tôi muốn tìm phòng view biển",
+  "timestamp": {
+    "$date": "2026-04-20T13:58:17.980Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:58:17.981Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:58:17.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e630f94e7d73bb1fbd4b2d"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "bot",
+  "content": "Chào bạn, tôi thấy bạn đang tìm phòng view biển. Tôi đề xuất phòng \"The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu\" hoặc \"Calista Cruise - A Ha Long Bay Spectacle\" vì chúng có view biển tuyệt đẹp. Phòng \"The Peak Suite at Landmark Plus\" đã có khách đặt từ 17/4 đến 20/4. Còn phòng \"The Song Your House Apartment\" và \"Calista Cruise\" vẫn còn trống. Bạn có muốn thêm dịch vụ ăn sáng hoặc spa không?",
+  "timestamp": {
+    "$date": "2026-04-20T13:58:17.983Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:58:17.984Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:58:17.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e631104e7d73bb1fbd4b40"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "user",
+  "content": "giá tầm dưới 500K",
+  "timestamp": {
+    "$date": "2026-04-20T13:58:40.562Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:58:40.563Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:58:40.563Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e631104e7d73bb1fbd4b42"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "bot",
+  "content": "Dạ, dưới 500K có phòng \"The Peak Suite at Landmark Plus\" giá 150.000đ, hoặc \"The Song Premium Apartment\" giá 140.000đ. Cả hai phòng đều có WiFi, TV, Mini Bar, Điều hòa. Phòng \"The Peak Suite at Landmark Plus\" đã có khách đặt từ 17/4 đến 20/4. Các phòng khác vẫn còn trống. Nếu quý khách muốn, chúng tôi có thể sắp xếp dịch vụ ăn sáng hoặc đưa đón sân bay.",
+  "timestamp": {
+    "$date": "2026-04-20T13:58:40.566Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T13:58:40.566Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T13:58:40.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e644b8849a474bef314dd4"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "user",
+  "content": "tôi muốn đặt lichj cho ngày 30/4",
+  "timestamp": {
+    "$date": "2026-04-20T15:22:32.893Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T15:22:32.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T15:22:32.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e644b8849a474bef314dd6"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "bot",
+  "content": "Dạ, chào anh/chị! Ngày 30/4, tôi thấy phòng \"The Peak Suite at Landmark Plus\" đã có khách đặt từ 17/4 đến 20/4, nên không thể đặt phòng này. Tuy nhiên, chúng tôi còn nhiều phòng khác đang trống. Anh/chị có thể xem phòng \"MAY DE VILLE Corner Hotel\" hoặc \"Calista Cruise - A Ha Long Bay Spectacle\" - cả hai đều có giá rất tốt và nhiều tiện nghi. Anh/chị muốn tôi gợi ý thêm về các phòng này không ạ?",
+  "timestamp": {
+    "$date": "2026-04-20T15:22:32.896Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T15:22:32.896Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T15:22:32.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e64737849a474bef314eb9"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "user",
+  "content": "tìm cho tôi khách sạn view biển",
+  "timestamp": {
+    "$date": "2026-04-20T15:33:11.923Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T15:33:11.924Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T15:33:11.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e64737849a474bef314ebb"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "bot",
+  "content": "Chào bạn, tôi thấy bạn đang tìm khách sạn view biển. Tôi đề xuất \"The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu\" vì nó có hồ bơi ngoài trời, khu vườn và nhìn ra biển. Phòng này còn trống và có giá 250.000đ (giảm 10%). Nếu bạn muốn, tôi có thể giúp bạn đặt phòng và thêm dịch vụ ăn sáng hoặc spa. Hãy cho tôi biết!",
+  "timestamp": {
+    "$date": "2026-04-20T15:33:11.928Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-20T15:33:11.929Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-20T15:33:11.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f08720bfb56e7b6bb4fcff"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "user",
+  "content": "tìm cho tôi phòng view biển",
+  "timestamp": {
+    "$date": "2026-04-28T10:08:32.103Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T10:08:32.105Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T10:08:32.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f08720bfb56e7b6bb4fd01"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "bot",
+  "content": "Dạ, tôi có thể giúp bạn tìm phòng view biển. Phòng \"The Song Your House Apartment - Căn Hộ Du Lịch Biển Vũng Tàu\" và \"Calista Cruise - A Ha Long Bay Spectacle\" có view biển đẹp. Cả hai phòng đều có hồ bơi ngoài trời và sân hiên để bạn tận hưởng view biển. Hiện tại, \"The Song Your House Apartment\" còn trống. Tôi có thể giúp bạn đặt phòng và thêm dịch vụ ăn sáng hoặc spa nếu bạn muốn.",
+  "timestamp": {
+    "$date": "2026-04-28T10:08:32.118Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T10:08:32.119Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T10:08:32.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0873ebfb56e7b6bb4fd1f"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "user",
+  "content": "gạch đầu dòng các phòng cho tôi",
+  "timestamp": {
+    "$date": "2026-04-28T10:09:02.268Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T10:09:02.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T10:09:02.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0873ebfb56e7b6bb4fd21"
+  },
+  "userId": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "sender": "bot",
+  "content": "Dưới đây là danh sách phòng:\n\n* The Peak Suite at Landmark Plus\n* Genesis Luxury Regal Cruise by Premier Group\n* The Song Your House Apartment\n* The Song Premium Apartment\n* Mekong Riverside Boutique Resort & Spa\n* The Pearl Hoi An\n* Calista Cruise\n* Bến Đò Xưa Homestay & Coffee\n* Hoi An Golden Holiday Hotel & Spa\n* Grand Fusion Point Hotel\n* Langco Bay Retreat\n* LeParc Hotel - Ben Thanh Market\n* MAY DE VILLE Corner Hotel\n* adasd\n\nVui lòng cho tôi biết nhu cầu của bạn để tôi có thể gợi ý phòng phù hợp.",
+  "timestamp": {
+    "$date": "2026-04-28T10:09:02.272Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T10:09:02.273Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T10:09:02.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f08bb9bfb56e7b6bb4ff69"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "user",
+  "content": "trong ngày mưa  recommend 1 phòng",
+  "timestamp": {
+    "$date": "2026-04-28T10:28:09.554Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T10:28:09.556Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T10:28:09.556Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f08bb9bfb56e7b6bb4ff6b"
+  },
+  "userId": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "sender": "bot",
+  "content": "Tôi hiểu rằng bạn đang tìm kiếm một phòng phù hợp cho ngày mưa. Dựa trên mô tả, tôi đề xuất \"Mekong Riverside Boutique Resort & Spa\" vì nó có hồ bơi ngoài trời và khu vườn, giúp bạn thư giãn trong ngày mưa. Phòng này còn trống và có giá 170.000đ. Nếu bạn muốn, tôi có thể thêm dịch vụ ăn sáng hoặc spa để làm cho ngày của bạn hoàn hảo hơn.",
+  "timestamp": {
+    "$date": "2026-04-28T10:28:09.561Z"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T10:28:09.562Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T10:28:09.562Z"
+  },
+  "__v": 0
+}]

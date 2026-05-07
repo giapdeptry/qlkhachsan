@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "69c1ddf2dc02dabcc472b0e0"
+  },
+  "fullName": "Giáp NV",
+  "email": "giapdeptry@gmail.com",
+  "isAdmin": true,
+  "address": "",
+  "phone": "0902190389",
+  "birthDay": {
+    "$date": "2004-05-10T17:00:00.000Z"
+  },
+  "typeLogin": "google",
+  "avatar": "",
+  "createdAt": {
+    "$date": "2026-03-24T00:42:26.702Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:58:17.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cb32d36a75fe590a8556aa"
+  },
+  "fullName": "Văn Giáp",
+  "email": "giapscachep@gmail.com",
+  "isAdmin": false,
+  "address": "",
+  "phone": "",
+  "birthDay": null,
+  "typeLogin": "google",
+  "avatar": "",
+  "createdAt": {
+    "$date": "2026-03-31T02:34:59.956Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-31T02:34:59.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e29ff7f471252e832335e8"
+  },
+  "fullName": "Văn Giáp Nguyễn",
+  "email": "vangiaphttt@gmail.com",
+  "isAdmin": false,
+  "address": "",
+  "phone": "",
+  "birthDay": null,
+  "typeLogin": "google",
+  "avatar": "",
+  "createdAt": {
+    "$date": "2026-04-17T21:02:47.248Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T21:02:47.248Z"
+  },
+  "__v": 0
+}]

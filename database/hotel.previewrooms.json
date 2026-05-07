@@ -1,0 +1,288 @@
+[{
+  "_id": {
+    "$oid": "69ef31e4dd4ce087220f40d4"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d640ba43e41d8ccd954d13",
+  "rating": 5,
+  "content": "hkjewrjhwkjrwr",
+  "createdAt": {
+    "$date": "2026-04-27T09:52:36.602Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:52:36.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef31eedd4ce087220f40d7"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "ywqlsakdhkaj",
+  "createdAt": {
+    "$date": "2026-04-27T09:52:46.216Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:52:46.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef31f9dd4ce087220f40da"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d640ba43e41d8ccd954d13",
+  "rating": 5,
+  "content": "adsuaydaád",
+  "createdAt": {
+    "$date": "2026-04-27T09:52:57.091Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:52:57.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef3200dd4ce087220f40dd"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "69e2b5520855959a78971017",
+  "rating": 5,
+  "content": "ádasdasdad",
+  "createdAt": {
+    "$date": "2026-04-27T09:53:04.599Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:53:04.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef3207dd4ce087220f40e0"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d640ba43e41d8ccd954d13",
+  "rating": 5,
+  "content": "đâsdasdasd",
+  "createdAt": {
+    "$date": "2026-04-27T09:53:11.828Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:53:11.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef3212dd4ce087220f40e3"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "ádasdasdaád",
+  "createdAt": {
+    "$date": "2026-04-27T09:53:22.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:53:22.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f06e13dd4ce087220f429b"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "abcbcbcbcb",
+  "createdAt": {
+    "$date": "2026-04-28T08:21:39.908Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:21:39.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f06fc0dd4ce087220f432b"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "123123213123123",
+  "createdAt": {
+    "$date": "2026-04-28T08:28:48.026Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:28:48.026Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f07099dd4ce087220f43f0"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "roomId": "68d65685369aa3917ebd6eb4",
+  "rating": 5,
+  "content": "1231231231",
+  "createdAt": {
+    "$date": "2026-04-28T08:32:25.940Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:32:25.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f073fd3ab39239f7951d08"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "roomId": "68d65685369aa3917ebd6eb4",
+  "rating": 5,
+  "content": "sadasdasdad",
+  "createdAt": {
+    "$date": "2026-04-28T08:46:53.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:46:53.364Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f076e5ae2ddfb9dbe62672"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "69e2b5520855959a78971017",
+  "rating": 5,
+  "content": "2131231313",
+  "createdAt": {
+    "$date": "2026-04-28T08:59:17.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:59:17.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0785eae2ddfb9dbe62752"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "123123123123",
+  "createdAt": {
+    "$date": "2026-04-28T09:05:34.188Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T09:05:34.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f07b23ae2ddfb9dbe62a08"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "69e2b5520855959a78971017",
+  "rating": 5,
+  "content": "123123123123",
+  "createdAt": {
+    "$date": "2026-04-28T09:17:23.022Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T09:17:23.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f08506bfb56e7b6bb4fc8e"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "123321123123",
+  "createdAt": {
+    "$date": "2026-04-28T09:59:34.254Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T09:59:34.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9a5cd6ad6871c52c8407a"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "abccccccccccccccc",
+  "createdAt": {
+    "$date": "2026-05-05T08:09:49.597Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:09:49.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9a76462b8b4f98b895f5a"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "sgahdjhgjsgadkjgkjgasdasda",
+  "createdAt": {
+    "$date": "2026-05-05T08:16:36.481Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:16:36.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9a8d762b8b4f98b895ffb"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "69e2b5520855959a78971017",
+  "rating": 5,
+  "content": "ádasdasđsdsada",
+  "createdAt": {
+    "$date": "2026-05-05T08:22:47.031Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:22:47.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9aa6fbc55846db8ba09e2"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "roomId": "68d6401343e41d8ccd954d07",
+  "rating": 5,
+  "content": "sáddsadsadasdaaa",
+  "createdAt": {
+    "$date": "2026-05-05T08:29:35.023Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:29:35.023Z"
+  },
+  "__v": 0
+}]

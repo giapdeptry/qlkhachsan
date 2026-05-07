@@ -1,0 +1,622 @@
+[{
+  "_id": {
+    "$oid": "69e2b09a0855959a78970dad"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6404d43e41d8ccd954d0b",
+      "checkInDate": {
+        "$date": "2026-04-24T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-25T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 180000,
+      "_id": {
+        "$oid": "69e2ab76375544fd69b72bc9"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "(+84) 368 040 363",
+  "totalPrice": 180000,
+  "nameCoupon": null,
+  "status": "cancelled",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-17T22:13:46.693Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T22:52:43.544Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e2b73d999876dd107351c4"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-04-17T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-21T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 540000,
+      "_id": {
+        "$oid": "69e2b738999876dd107351b3"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "(+84) 368 040 363",
+  "totalPrice": 540000,
+  "nameCoupon": null,
+  "status": "cancelled",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-17T22:42:05.617Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T22:52:41.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e2b7cf999876dd107352cd"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-04-17T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-20T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 405000,
+      "_id": {
+        "$oid": "69e2b7bc999876dd107352bc"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdepSStry@gmail.com",
+  "phone": "ẤDASD",
+  "totalPrice": 405000,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-17T22:44:31.559Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-18T03:16:28.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e6486c849a474bef314f54"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6404d43e41d8ccd954d0b",
+      "checkInDate": {
+        "$date": "2026-04-22T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-23T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 1,
+      "price": 180000,
+      "_id": {
+        "$oid": "69e6485e849a474bef314f2e"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdepSStry@gmail.com",
+  "phone": "1231334",
+  "totalPrice": 180000,
+  "nameCoupon": null,
+  "status": "cancelled",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-20T15:38:20.953Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:26:44.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e648dd849a474bef314f7a"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6416243e41d8ccd954d30",
+      "checkInDate": {
+        "$date": "2026-04-19T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-24T00:00:00.000Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 1,
+      "price": 600000,
+      "_id": {
+        "$oid": "69e648d0849a474bef314f6c"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdepSStry@gmail.com",
+  "phone": "1231334",
+  "totalPrice": 600000,
+  "nameCoupon": null,
+  "status": "cancelled",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-20T15:40:13.393Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:26:47.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef2a72dd4ce087220f3d3f"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d640ba43e41d8ccd954d13",
+      "checkInDate": {
+        "$date": "2026-04-30T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-03T00:00:00.000Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "price": 420000,
+      "_id": {
+        "$oid": "69ef2a48dd4ce087220f3cf5"
+      }
+    },
+    {
+      "roomId": "69e2b5520855959a78971017",
+      "checkInDate": {
+        "$date": "2026-04-30T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-03T00:00:00.000Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "price": 77160727.3536,
+      "_id": {
+        "$oid": "69ef2a67dd4ce087220f3d23"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdepSStry@gmail.com",
+  "phone": "1231334",
+  "totalPrice": 77580727.3536,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-27T09:20:50.168Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-27T09:31:08.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ef2c86dd4ce087220f3ef5"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6404d43e41d8ccd954d0b",
+      "checkInDate": {
+        "$date": "2026-04-27T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-28T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 180000,
+      "_id": {
+        "$oid": "69ef2c7edd4ce087220f3ee3"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdepSStry@gmail.com",
+  "phone": "1231334",
+  "totalPrice": 180000,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-27T09:29:42.479Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T09:19:28.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f06dcbdd4ce087220f41f5"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "rooms": [
+    {
+      "roomId": "68d65685369aa3917ebd6eb4",
+      "checkInDate": {
+        "$date": "2026-04-28T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-29T00:00:00.000Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "price": 75000,
+      "_id": {
+        "$oid": "69ef2fbfdd4ce087220f4024"
+      }
+    },
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-04-28T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-29T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 135000,
+      "_id": {
+        "$oid": "69f06dc4dd4ce087220f41de"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdepSStry@gmail.com",
+  "phone": "1231334",
+  "totalPrice": 210000,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-28T08:20:27.797Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:21:12.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f07640ae2ddfb9dbe62550"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-04-29T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-30T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 135000,
+      "_id": {
+        "$oid": "69f07635ae2ddfb9dbe6253e"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "09333333333",
+  "totalPrice": 135000,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-28T08:56:32.941Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T08:57:55.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f07abdae2ddfb9dbe6294f"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "69e2b5520855959a78971017",
+      "checkInDate": {
+        "$date": "2026-04-28T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-04-29T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 2,
+      "price": 25720242.451199997,
+      "_id": {
+        "$oid": "69f07ab4ae2ddfb9dbe6293d"
+      }
+    }
+  ],
+  "fullName": "Nguyễn Văn Giáp",
+  "email": "vangiaphttt@gmail.com",
+  "phone": "0892392834",
+  "totalPrice": 25720242.451199997,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-04-28T09:15:41.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T09:16:57.462Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9a8b362b8b4f98b895fd7"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-05-05T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-06T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 135000,
+      "_id": {
+        "$oid": "69f9a8ac62b8b4f98b895fc5"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "09333333333",
+  "totalPrice": 135000,
+  "nameCoupon": null,
+  "status": "cancelled",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-05-05T08:22:11.420Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:49:03.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9aa153081c75b6a2c7838"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-05-05T08:28:05.702Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-07T08:28:05.703Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "price": 300000,
+      "_id": {
+        "$oid": "69f9aa153081c75b6a2c7839"
+      }
+    }
+  ],
+  "fullName": "Văn Giáp Nguyễn",
+  "email": "vangiaphttt@gmail.com",
+  "phone": "0123456789",
+  "totalPrice": 300000,
+  "nameCoupon": "NONE",
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-05-05T08:28:05.708Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:28:05.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9acdddd8eed95f9a228f7"
+  },
+  "userId": "69e29ff7f471252e832335e8",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-05-08T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-08T00:00:00.000Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "price": 0,
+      "_id": {
+        "$oid": "69f9acdadd8eed95f9a228e5"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "09333333333",
+  "totalPrice": 0,
+  "nameCoupon": null,
+  "status": "cancelled",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-05-05T08:39:57.917Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:48:59.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9af7cdd8eed95f9a22a25"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "rooms": [
+    {
+      "roomId": "68d6404d43e41d8ccd954d0b",
+      "checkInDate": {
+        "$date": "2026-05-05T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-06T00:00:00.000Z"
+      },
+      "numberOfAdults": 2,
+      "numberOfChildren": 1,
+      "price": 180000,
+      "_id": {
+        "$oid": "69f9af5edd8eed95f9a229f4"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "09333333333",
+  "totalPrice": 180000,
+  "nameCoupon": null,
+  "status": "pending",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-05-05T08:51:08.629Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T08:51:08.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9c001693e51f89e5d71d0"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-05-09T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-10T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 2,
+      "price": 135000,
+      "_id": {
+        "$oid": "69f9bff2693e51f89e5d71aa"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "1231334",
+  "totalPrice": 135000,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-05-05T10:01:37.886Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T10:02:07.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f9cb227d9bf5c049d9e226"
+  },
+  "userId": "69c1ddf2dc02dabcc472b0e0",
+  "rooms": [
+    {
+      "roomId": "68d6401343e41d8ccd954d07",
+      "checkInDate": {
+        "$date": "2026-05-10T00:00:00.000Z"
+      },
+      "checkOutDate": {
+        "$date": "2026-05-12T00:00:00.000Z"
+      },
+      "numberOfAdults": 1,
+      "numberOfChildren": 0,
+      "price": 270000,
+      "_id": {
+        "$oid": "69f9cb197d9bf5c049d9e214"
+      }
+    }
+  ],
+  "fullName": "Duong Ta",
+  "email": "giapdeptry@gmail.com",
+  "phone": "12313213123",
+  "totalPrice": 270000,
+  "nameCoupon": null,
+  "status": "completed",
+  "paymentMethod": "cash",
+  "createdAt": {
+    "$date": "2026-05-05T10:49:06.932Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T10:49:19.368Z"
+  },
+  "__v": 0
+}]

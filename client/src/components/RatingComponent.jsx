@@ -255,7 +255,7 @@ const RatingComponent = forwardRef(({ roomId, paymentId, userHasBooked = false, 
                                     }
                                 }}
                                 disabled={!userHasBooked || !dataUser}
-                                className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
+                                className="w-full bg-primary-500 text-white py-2 px-4 rounded-lg hover:bg-primary-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
                             >
                                 {userRating ? 'Chỉnh sửa đánh giá' : 'Viết đánh giá của bạn'}
                             </button>
@@ -276,7 +276,7 @@ const RatingComponent = forwardRef(({ roomId, paymentId, userHasBooked = false, 
                                         value={commentValue}
                                         onChange={(e) => setCommentValue(e.target.value)}
                                         placeholder="Chia sẻ trải nghiệm của bạn..."
-                                        className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+                                        className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-primary-500 resize-none"
                                         rows="3"
                                     />
                                 </div>
@@ -285,7 +285,7 @@ const RatingComponent = forwardRef(({ roomId, paymentId, userHasBooked = false, 
                                     <button
                                         onClick={handleSubmitRating}
                                         disabled={isSubmitting}
-                                        className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 disabled:bg-gray-300 transition"
+                                        className="flex-1 bg-primary-500 text-white py-2 px-4 rounded-lg hover:bg-primary-600 disabled:bg-gray-300 transition"
                                     >
                                         {isSubmitting ? 'Đang gửi...' : 'Gửi đánh giá'}
                                     </button>
@@ -314,7 +314,7 @@ const RatingComponent = forwardRef(({ roomId, paymentId, userHasBooked = false, 
                     <select 
                         value={sortBy} 
                         onChange={(e) => setSortBy(e.target.value)}
-                        className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+                        className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 bg-white"
                     >
                         <option value="newest">Mới nhất</option>
                         <option value="oldest">Cũ nhất</option>
@@ -347,7 +347,7 @@ const RatingComponent = forwardRef(({ roomId, paymentId, userHasBooked = false, 
                                                     className="w-10 h-10 rounded-full object-cover"
                                                 />
                                             ) : (
-                                                <div className="w-10 h-10 rounded-full bg-blue-400 flex items-center justify-center text-white font-semibold">
+                                                <div className="w-10 h-10 rounded-full bg-primary-400 flex items-center justify-center text-white font-semibold">
                                                     {userFullName.charAt(0).toUpperCase()}
                                                 </div>
                                             )}
@@ -377,7 +377,7 @@ const RatingComponent = forwardRef(({ roomId, paymentId, userHasBooked = false, 
                                         <div className="flex gap-2 ml-4">
                                             <button
                                                 onClick={() => handleEditRating(rating)}
-                                                className="text-blue-500 hover:text-blue-700 p-1"
+                                                className="text-primary-500 hover:text-primary-700 p-1"
                                                 title="Chỉnh sửa"
                                             >
                                                 <Edit2 className="w-4 h-4" />

@@ -54,7 +54,7 @@ function RegisterUser() {
                                     alt="Tour du lịch"
                                     className="rounded-l-xl shadow-lg object-cover w-full h-full"
                                 />
-                                <div className="absolute inset-0 bg-blue-500 opacity-20 rounded-l-xl"></div>
+                                <div className="absolute inset-0 bg-primary-500 opacity-20 rounded-l-xl"></div>
                                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                                     <h2 className="text-3xl font-bold shadow-text">Khám phá điểm đến mới</h2>
                                     <p className="text-xl mt-2 shadow-text">Đăng ký ngay để nhận ưu đãi đặc biệt</p>
@@ -164,7 +164,7 @@ function RegisterUser() {
                                         <Button
                                             type="primary"
                                             htmlType="submit"
-                                            className="w-full bg-blue-600 hover:bg-blue-700"
+                                            className="w-full bg-primary-600 hover:bg-primary-700"
                                             loading={loading}
                                         >
                                             Đăng ký

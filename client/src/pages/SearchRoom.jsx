@@ -106,7 +106,7 @@ function SearchRoom() {
     }, [checkIn, checkOut, adultsRoom, childrenRoom]);
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-sky-50">
             {/* Header */}
             <header>
                 <Header />
@@ -155,7 +155,7 @@ function SearchRoom() {
                             {/* Enhanced Guest Selection */}
                             <div className="mb-6">
                                 <div className="flex items-center mb-4">
-                                    <Users className="w-5 h-5 text-purple-600 mr-2" />
+                                    <Users className="w-5 h-5 text-primary-600 mr-2" />
                                     <h3 className="font-medium text-sm text-gray-700">Số Lượng Khách</h3>
                                 </div>
                                 <div className="grid grid-cols-2 gap-3">
@@ -179,19 +179,19 @@ function SearchRoom() {
                                             </button>
                                         </div>
                                     </div>
-                                    <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-4">
+                                    <div className="bg-gradient-to-br from-accent-50 to-accent-100 rounded-xl p-4">
                                         <label className="text-xs font-medium text-gray-600 mb-2 block">Trẻ em</label>
                                         <div className="flex items-center justify-between">
                                             <button
                                                 onClick={() => setChildren(Math.max(0, children - 1))}
-                                                className="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-purple-600 hover:bg-purple-50 transition-colors"
+                                                className="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-primary-600 hover:bg-primary-50 transition-colors"
                                             >
                                                 -
                                             </button>
                                             <span className="font-bold text-base">{children}</span>
                                             <button
                                                 onClick={() => setChildren(children + 1)}
-                                                className="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-purple-600 hover:bg-purple-50 transition-colors"
+                                                className="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-primary-600 hover:bg-primary-50 transition-colors"
                                             >
                                                 +
                                             </button>
@@ -204,10 +204,10 @@ function SearchRoom() {
                             <div className="mb-6">
                                 <button
                                     onClick={handleSearch}
-                                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center"
+                                    className="w-full bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-bold py-3 px-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center"
                                 >
                                     <Search className="w-5 h-5 mr-2" />
-                                    Tìm Kiếm Phòng
+                                    Tìm kiếm
                                 </button>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ function SearchRoom() {
                                         {/* Badges */}
                                         <div className="absolute top-4 left-4 flex flex-col gap-2">
                                             {room.discount && (
-                                                <span className="px-3 py-1 bg-orange-500 text-white rounded-full text-xs font-bold">
+                                                <span className="px-3 py-1 bg-accent-500 text-white rounded-full text-xs font-bold">
                                                     -{room.discount}%
                                                 </span>
                                             )}
@@ -291,7 +291,7 @@ function SearchRoom() {
 
                                         <div className="space-y-3 mb-4">
                                             <div className="flex items-center text-gray-600">
-                                                <Users className="w-4 h-4 mr-2 text-purple-600" />
+                                                <Users className="w-4 h-4 mr-2 text-primary-600" />
                                                 <span className="text-xs">
                                                     {room.maxAdults} người lớn • {room.maxChildren} trẻ em
                                                 </span>
@@ -305,7 +305,7 @@ function SearchRoom() {
                                                 {room.amenities.map((amenity, idx) => (
                                                     <span
                                                         key={idx}
-                                                        className="px-2 py-1 bg-gradient-to-r from-purple-50 to-pink-50 text-purple-700 rounded-lg text-xs font-medium border border-purple-200"
+                                                        className="px-2 py-1 bg-gradient-to-r from-accent-50 to-accent-100 text-accent-700 rounded-lg text-xs font-medium border border-accent-200"
                                                     >
                                                         {amenitiesOptions.find((a) => a.value === amenity)?.icon}{' '}
                                                         {amenity}
@@ -327,7 +327,7 @@ function SearchRoom() {
                                                     )}
                                                 </div>
                                                 <div className="flex items-baseline space-x-1">
-                                                    <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                                                    <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
                                                         {room.pricePerNight.toLocaleString()}
                                                     </span>
                                                     <span className="text-gray-600">VND</span>
@@ -342,7 +342,7 @@ function SearchRoom() {
                                                     </button>
                                                 </Link>
                                                 <Link to={`/detail-room/${room._id}`}>
-                                                    <button className="px-4 py-2 text-sm bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-xl transition-all duration-300 transform hover:scale-105 font-medium shadow-lg hover:shadow-xl">
+                                                    <button className="px-4 py-2 text-sm bg-gradient-to-r from-primary-600 to-accent-600 hover:from-primary-700 hover:to-accent-700 text-white rounded-xl transition-all duration-300 transform hover:scale-105 font-medium shadow-lg hover:shadow-xl">
                                                         Đặt Ngay
                                                     </button>
                                                 </Link>

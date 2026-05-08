@@ -10,11 +10,14 @@ import { toast, ToastContainer } from 'react-toastify';
 import { useStore } from '../hooks/useStore';
 
 import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
+import reactLogo from '../assets/react.svg';
+import loginHero from '../assets/login-hero.svg';
 
 function LoginUser() {
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
     const { refreshUserData } = useStore();
+    
     const onFinish = async (values) => {
         setLoading(true);
 
@@ -92,17 +95,11 @@ function LoginUser() {
                         {/* Phần hình ảnh */}
                         <div className="hidden lg:flex lg:w-1/2 h-auto">
                             <div className="relative w-full h-full">
-                                <img
-                                    src="https://static.ecosite.vn/9588/product/2018/11/01/taucaotocmotchieugiuadaophiphiphuket-1541060640.jpg"
-                                    alt="Tour du lịch"
-                                    className="rounded-l-xl shadow-lg object-cover w-full h-full"
-                                />
-                                <div className="absolute inset-0 bg-blue-500 opacity-20 rounded-l-xl"></div>
+                                <LoginImage />
+                                <div className="absolute inset-0 bg-primary-500 opacity-20 rounded-l-xl"></div>
                                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                                     <h2 className="text-3xl font-bold shadow-text">Chào mừng trở lại</h2>
-                                    <p className="text-xl mt-2 shadow-text">
-                                        Đăng nhập để tham gia các dịch vụ tuyệt vời
-                                    </p>
+                                    <p className="text-xl mt-2 shadow-text">Đăng nhập để tham gia các dịch vụ tuyệt vời</p>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +143,7 @@ function LoginUser() {
                                     </Form.Item>
 
                                     <div className="flex justify-between mb-4">
-                                        <Link className="text-blue-600 hover:text-blue-800" to="/forgot-password">
+                                        <Link className="text-primary-600 hover:text-primary-800" to="/forgot-password">
                                             Quên mật khẩu?
                                         </Link>
                                     </div>
@@ -155,7 +152,7 @@ function LoginUser() {
                                         <Button
                                             type="primary"
                                             htmlType="submit"
-                                            className="w-full bg-blue-600 hover:bg-blue-700"
+                                            className="w-full bg-primary-600 hover:bg-primary-700"
                                             loading={loading}
                                         >
                                             Đăng nhập
@@ -175,7 +172,7 @@ function LoginUser() {
 
                                     <div className="text-center pt-4">
                                         <Link to="/register">
-                                            <Button className="w-full">Đăng ký</Button>
+                                            <Button className="w-full bg-blue-600 text-white hover:bg-blue-700">Đăng ký</Button>
                                         </Link>
                                     </div>
                                 </Form>
@@ -189,6 +186,19 @@ function LoginUser() {
                 <Footer />
             </footer> */}
         </div>
+    );
+}
+
+function LoginImage() {
+    const [src, setSrc] = useState(loginHero);
+
+    return (
+        <img
+            src={src}
+            alt="Tour du lịch"
+            onError={() => setSrc(reactLogo)}
+            className="rounded-l-xl shadow-lg object-cover w-full h-full"
+        />
     );
 }
 

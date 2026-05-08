@@ -93,7 +93,7 @@ function UserManagement() {
             dataIndex: 'isAdmin',
             key: 'isAdmin',
             render: (isAdmin) => (
-                <Tag color={isAdmin === true ? 'blue' : 'purple'}>{isAdmin === true ? 'Admin' : 'Người dùng'}</Tag>
+                <Tag color={isAdmin === true ? 'green' : 'brown'}>{isAdmin === true ? 'Admin' : 'Người dùng'}</Tag>
             ),
         },
         {

@@ -134,7 +134,7 @@ function ContactManager() {
         const typeColors = {
             'Đặt phòng': 'blue',
             'Dịch vụ': 'green',
-            'Sự kiện': 'purple',
+            'Sự kiện': 'green',
             'Khiếu nại': 'red',
             'Góp ý': 'cyan',
             Khác: 'default',
@@ -174,7 +174,7 @@ function ContactManager() {
             render: (_, record) => (
                 <div>
                     <div className="flex items-center mb-1">
-                        <UserOutlined className="text-blue-500 mr-2" />
+                        <UserOutlined className="text-primary-500 mr-2" />
                         <span className="font-semibold">{record.fullName}</span>
                     </div>
                     <div className="flex items-center mb-1">
@@ -182,7 +182,7 @@ function ContactManager() {
                         <span className="text-sm text-gray-600">{record.email}</span>
                     </div>
                     <div className="flex items-center">
-                        <PhoneOutlined className="text-orange-500 mr-2" />
+                        <PhoneOutlined className="text-accent-500 mr-2" />
                         <span className="text-sm text-gray-600">{record.phone}</span>
                     </div>
                 </div>

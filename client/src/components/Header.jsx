@@ -31,7 +31,7 @@ function Header() {
                 dataUser?.isAdmin && {
                     key: '0',
                     label: (
-                        <div className="flex items-center gap-3 py-2 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200">
+                        <div className="flex items-center gap-3 py-2 hover:bg-gradient-to-r hover:from-primary-50 hover:to-accent-50 rounded-lg transition-all duration-200">
                             <Link to="/admin">
                                 <span className="font-medium text-gray-700">Trang Admin</span>
                             </Link>
@@ -41,7 +41,7 @@ function Header() {
                 {
                     key: '1',
                     label: (
-                        <div className="flex items-center gap-3 py-2 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 rounded-lg transition-all duration-200">
+                        <div className="flex items-center gap-3 py-2 hover:bg-gradient-to-r hover:from-primary-50 hover:to-accent-50 rounded-lg transition-all duration-200">
                             <Link to="/profile">
                                 <span className="font-medium text-gray-700">Thông tin cá nhân</span>
                             </Link>
@@ -53,7 +53,7 @@ function Header() {
                     label: (
                         <div
                             onClick={handleLogout}
-                            className="flex items-center gap-3 py-2 hover:bg-gradient-to-r hover:from-red-50 hover:to-pink-50 rounded-lg transition-all duration-200 cursor-pointer"
+                            className="flex items-center gap-3 py-2 hover:bg-gradient-to-r hover:from-accent-50 hover:to-accent-100 rounded-lg transition-all duration-200 cursor-pointer"
                         >
                             <span className="font-medium text-gray-700">Đăng xuất</span>
                         </div>
@@ -82,7 +82,7 @@ function Header() {
                     <Link to="/">
                         <div className="flex items-center gap-8">
                             <div className="group cursor-pointer">
-                                <div className="scale-150 text-2xl font-bold text-blue-600 group-hover:text-blue-500 transition-all duration-300">
+                                <div className="scale-150 text-2xl font-bold text-primary-600 group-hover:text-primary-500 transition-all duration-300">
                                     🏨SmartStay
                                 </div>
                                 <div className="text-xs text-gray-500 font-light tracking-wider">LUXURY EXPERIENCE</div>
@@ -107,10 +107,10 @@ function Header() {
                             <Link
                                 to={item.path}
                                 key={index}
-                                className="px-4 py-2 text-gray-700 font-medium hover:text-blue-600 hover:bg-blue-50 rounded-xl transition-all duration-200 relative group"
+                                className="px-4 py-2 text-gray-700 font-medium hover:text-primary-600 hover:bg-primary-50 rounded-xl transition-all duration-200 relative group"
                             >
                                 {item.label}
-                                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-3/4 transition-all duration-300"></div>
+                                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-accent-500 group-hover:w-3/4 transition-all duration-300"></div>
                             </Link>
                         ))}
                     </nav>
@@ -119,14 +119,14 @@ function Header() {
                         {!dataUser._id ? (
                             <div className="hidden lg:flex items-center gap-3">
                                 <Link to="/login">
-                                    <button className="h-11 px-3 border-2 border-gray-300 hover:border-blue-400 hover:text-blue-600 rounded-full font-medium text-sm transition-all duration-300 hover:shadow-md">
+                                    <button className="h-11 px-3 border-2 border-gray-300 hover:border-primary-400 hover:text-primary-600 rounded-full font-medium text-sm transition-all duration-300 hover:shadow-md">
                                         Đăng nhập
                                     </button>
                                 </Link>
                                 <Link to="/register">
                                     <button
                                         type="button"
-                                        className="h-10 text-white px-4 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 border-0 rounded-full font-medium text-sm shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                                        className="h-10 px-4 rounded-full font-medium text-sm text-white bg-blue-600 hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
                                     >
                                         Đăng ký
                                     </button>
@@ -135,7 +135,7 @@ function Header() {
                         ) : (
                             <div>
                                 <Dropdown overlay={userMenu} placement="bottomRight" trigger={['click']}>
-                                    <button className="h-11 px-4 border-2 border-gray-200 hover:border-blue-400 rounded-full flex items-center gap-3 hover:shadow-md transition-all duration-300 hover:scale-105 bg-white">
+                                    <button className="h-11 px-4 border-2 border-gray-200 hover:border-primary-400 rounded-full flex items-center gap-3 hover:shadow-md transition-all duration-300 hover:scale-105 bg-white">
                                         <div className="flex items-center gap-3">
                                             {dataUser.avatar ? (
                                                 <img
@@ -146,12 +146,12 @@ function Header() {
                                                         'https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png'
                                                     }
                                                     alt="Avatar"
-                                                    className="w-7 h-7 rounded-full object-cover border-2 border-blue-200"
+                                                    className="w-7 h-7 rounded-full object-cover border-2 border-primary-200"
                                                 />
                                             ) : (
                                                 <div>
                                                     <img
-                                                        className="w-7 h-7 rounded-full object-cover border-2 border-blue-200"
+                                                        className="w-7 h-7 rounded-full object-cover border-2 border-primary-200"
                                                         src="https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"
                                                         alt=""
                                                     />

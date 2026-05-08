@@ -176,7 +176,7 @@ function Dashboard() {
             type: 'contact',
             message: 'Tin nhắn liên hệ mới từ Lê Minh C',
             time: '30 phút trước',
-            icon: <MessageOutlined className="text-blue-500" />,
+            icon: <MessageOutlined className="text-primary-500" />,
         },
         {
             type: 'payment',
@@ -188,7 +188,7 @@ function Dashboard() {
             type: 'maintenance',
             message: 'Bảo trì phòng 301 hoàn thành',
             time: '2 giờ trước',
-            icon: <HomeOutlined className="text-orange-500" />,
+            icon: <HomeOutlined className="text-accent-500" />,
         },
     ];
 
@@ -341,7 +341,7 @@ function Dashboard() {
                         <Statistic
                             title="Đặt Phòng"
                             value={dashboardData.bookings.current}
-                            prefix={<ShoppingCartOutlined className="text-blue-500" />}
+                            prefix={<ShoppingCartOutlined className="text-primary-500" />}
                             suffix={
                                 <div className="flex items-center">
                                     <ArrowUpOutlined className="text-green-500 mr-1" />
@@ -363,7 +363,7 @@ function Dashboard() {
                         <Statistic
                             title="Khách Hàng"
                             value={dashboardData.customers.current}
-                            prefix={<UserOutlined className="text-purple-500" />}
+                            prefix={<UserOutlined className="text-primary-500" />}
                             suffix={
                                 <div className="flex items-center">
                                     <ArrowUpOutlined className="text-green-500 mr-1" />
@@ -386,7 +386,7 @@ function Dashboard() {
                             title="Tỷ Lệ Lấp Đầy"
                             value={dashboardData.occupancy.current}
                             suffix="%"
-                            prefix={<HomeOutlined className="text-orange-500" />}
+                            prefix={<HomeOutlined className="text-accent-500" />}
                             valueStyle={{ color: '#fa8c16', fontSize: '1.5rem' }}
                         />
                         <div className="mt-2">
@@ -414,7 +414,7 @@ function Dashboard() {
                     <Card
                         title={
                             <div className="flex items-center">
-                                <BarChartOutlined className="mr-2 text-blue-500" />
+                                <BarChartOutlined className="mr-2 text-primary-500" />
                                 📊 Biểu Đồ Doanh Thu & Đặt Phòng
                             </div>
                         }
@@ -454,7 +454,7 @@ function Dashboard() {
                         <Row gutter={[16, 16]}>
                             <Col span={12}>
                                 <div className="text-center">
-                                    <div className="text-3xl font-bold text-blue-600">{dashboardData.rooms.total}</div>
+                                    <div className="text-3xl font-bold text-primary-600">{dashboardData.rooms.total}</div>
                                     <div className="text-gray-600">Tổng phòng</div>
                                 </div>
                             </Col>

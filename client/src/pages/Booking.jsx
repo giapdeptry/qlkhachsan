@@ -79,7 +79,7 @@ function Booking() {
 
     if (!room) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+            <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-sky-50">
                 <Header />
                 <div className="flex items-center justify-center h-96">
                     <p className="text-gray-600">Đang tải thông tin đặt phòng...</p>
@@ -90,14 +90,14 @@ function Booking() {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+        <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-cyan-100 to-teal-50">
             <Header />
 
             <div className="w-[90%] mx-auto mt-8 mb-8 px-4">
                 {/* Back Button */}
                 <button
                     onClick={() => navigate(-1)}
-                    className="flex items-center text-blue-600 hover:text-blue-800 mb-6 font-medium transition-colors"
+                    className="flex items-center text-primary-600 hover:text-primary-800 mb-6 font-medium transition-colors"
                 >
                     <ArrowLeft className="w-5 h-5 mr-2" />
                     Quay Lại
@@ -122,7 +122,7 @@ function Booking() {
                                 <div className="mb-6">
                                     <h2 className="text-3xl font-bold text-gray-800 mb-2">{room.roomName}</h2>
                                     <div className="flex items-center text-gray-600">
-                                        <Users className="w-5 h-5 mr-2 text-purple-600" />
+                                        <Users className="w-5 h-5 mr-2 text-primary-600" />
                                         <span className="text-sm">
                                             Tối đa {room.maxAdults} người lớn • {room.maxChildren} trẻ em
                                         </span>
@@ -137,7 +137,7 @@ function Booking() {
                                             {room.amenities.map((amenity, idx) => (
                                                 <span
                                                     key={idx}
-                                                    className="px-3 py-2 bg-gradient-to-r from-purple-50 to-pink-50 text-purple-700 rounded-lg text-sm font-medium border border-purple-200"
+                                                    className="px-3 py-2 bg-gradient-to-r from-accent-50 to-accent-100 text-accent-700 rounded-lg text-sm font-medium border border-accent-200"
                                                 >
                                                     ✓ {amenity}
                                                 </span>
@@ -148,9 +148,9 @@ function Booking() {
 
                                 {/* Booking Details */}
                                 <div className="border-t pt-6 mt-6 grid grid-cols-2 gap-4">
-                                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-4">
-                                        <div className="flex items-center mb-2">
-                                            <Calendar className="w-4 h-4 text-blue-600 mr-2" />
+                                    <div className="bg-gradient-to-br from-primary-50 to-tertiary-50 rounded-2xl p-4">
+                                        <div className="flex items-center">
+                                            <Calendar className="w-4 h-4 text-primary-600 mr-2" />
                                             <span className="text-xs font-semibold text-gray-600">Ngày Nhận Phòng</span>
                                         </div>
                                         <p className="text-sm font-bold text-gray-800">
@@ -166,16 +166,16 @@ function Booking() {
                                             {new Date(room.checkOutDate).toLocaleDateString('vi-VN')}
                                         </p>
                                     </div>
-                                    <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-4">
+                                    <div className="bg-gradient-to-br from-accent-50 to-accent-100 rounded-2xl p-4">
                                         <div className="flex items-center mb-2">
-                                            <Users className="w-4 h-4 text-purple-600 mr-2" />
+                                            <Users className="w-4 h-4 text-primary-600 mr-2" />
                                             <span className="text-xs font-semibold text-gray-600">Khách</span>
                                         </div>
                                         <p className="text-sm font-bold text-gray-800">
                                             {room.adults} người lớn, {room.children} trẻ em
                                         </p>
                                     </div>
-                                    <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-4">
+                                    <div className="bg-gradient-to-br from-primary-50 to-accent-50 rounded-2xl p-4">
                                         <div className="flex items-center mb-2">
                                             <DollarSign className="w-4 h-4 text-orange-600 mr-2" />
                                             <span className="text-xs font-semibold text-gray-600">Số Đêm</span>
@@ -200,7 +200,7 @@ function Booking() {
                                         value={guestInfo.fullName}
                                         onChange={handleInputChange}
                                         placeholder="Nhập họ tên của bạn"
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-blue-400 focus:ring-4 focus:ring-blue-100 transition-all duration-300 text-gray-800"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-primary-400 focus:ring-4 focus:ring-primary-100 transition-all duration-300 text-gray-800"
                                     />
                                 </div>
                                 <div>
@@ -213,7 +213,7 @@ function Booking() {
                                         value={guestInfo.email}
                                         onChange={handleInputChange}
                                         placeholder="Nhập email của bạn"
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-blue-400 focus:ring-4 focus:ring-blue-100 transition-all duration-300 text-gray-800"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-primary-400 focus:ring-4 focus:ring-primary-100 transition-all duration-300 text-gray-800"
                                     />
                                 </div>
                                 <div>
@@ -226,7 +226,7 @@ function Booking() {
                                         value={guestInfo.phone}
                                         onChange={handleInputChange}
                                         placeholder="Nhập số điện thoại"
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-blue-400 focus:ring-4 focus:ring-blue-100 transition-all duration-300 text-gray-800"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-primary-400 focus:ring-4 focus:ring-primary-100 transition-all duration-300 text-gray-800"
                                     />
                                 </div>
                                 <div>
@@ -239,7 +239,7 @@ function Booking() {
                                         onChange={handleInputChange}
                                         placeholder="Nhập yêu cầu đặc biệt của bạn (ví dụ: tầng cao, gần cửa sổ...)"
                                         rows="4"
-                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-blue-400 focus:ring-4 focus:ring-blue-100 transition-all duration-300 text-gray-800"
+                                        className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-primary-400 focus:ring-4 focus:ring-primary-100 transition-all duration-300 text-gray-800"
                                     />
                                 </div>
                             </div>
@@ -264,14 +264,14 @@ function Booking() {
                                 </div>
                                 <div className="border-t pt-4 flex justify-between items-center">
                                     <span className="font-bold text-gray-800">Tổng Cộng</span>
-                                    <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                                    <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-tertiary-600 bg-clip-text text-transparent">
                                         {totalPrice.toLocaleString()} VND
                                     </span>
                                 </div>
                             </div>
 
                             {/* Booking Conditions */}
-                            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-4 mb-6 border border-blue-200">
+                            <div className="bg-gradient-to-br from-primary-50 to-accent-50 rounded-2xl p-4 mb-6 border border-primary-200">
                                 <ul className="space-y-2 text-sm text-gray-700">
                                     <li className="flex items-start">
                                         <span className="text-blue-600 mr-2 font-bold">✓</span>
@@ -291,7 +291,7 @@ function Booking() {
                             {/* Confirm Button */}
                             <button
                                 onClick={handleConfirmBooking}
-                                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-4 px-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                                className="w-full bg-gradient-to-r from-primary-600 to-tertiary-600 hover:from-primary-700 hover:to-tertiary-700 text-white font-bold py-4 px-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                             >
                                 Xác Nhận Đặt Phòng
                             </button>
@@ -299,7 +299,7 @@ function Booking() {
                             {/* Info Text */}
                             <p className="text-xs text-gray-500 text-center mt-4">
                                 Bằng cách nhấp vào "Xác Nhận Đặt Phòng", bạn đồng ý với <br />
-                                <a href="#" className="text-blue-600 hover:underline">điều khoản & điều kiện</a> của chúng tôi
+                                <a href="#" className="text-primary-600 hover:underline">điều khoản & điều kiện</a> của chúng tôi
                             </p>
                         </div>
                     </div>

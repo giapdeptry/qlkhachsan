@@ -50,7 +50,7 @@ const RoomCardBody = ({ room }) => {
                     </Link>
 
                     <div className="absolute top-2 right-2">
-                        <Tag color="blue" className="border-0 bg-blue-500 text-white">
+                        <Tag color="cyan" className="border-0 bg-primary-500 text-white">
                             <EnvironmentOutlined className="mr-1" />
                             Tầng {roomData.floor}
                         </Tag>
@@ -66,7 +66,7 @@ const RoomCardBody = ({ room }) => {
                         <p className="text-sm text-gray-500">{roomData.roomType}</p>
                     </div>
                     <div className="text-right">
-                        <p className="text-lg font-bold text-blue-600">{formatPrice(roomData.pricePerNight)}</p>
+                        <p className="text-lg font-bold text-primary-600">{formatPrice(roomData.pricePerNight)}</p>
                         <p className="text-xs text-gray-500">/ đêm</p>
                     </div>
                 </div>

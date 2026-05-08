@@ -45,9 +45,9 @@ function Contact() {
 
     const contactInfo = [
         {
-            icon: <PhoneOutlined className="text-2xl text-blue-600" />,
+            icon: <PhoneOutlined className="text-2xl text-primary-600" />,
             title: 'Điện Thoại',
-            details: ['+84 24 1234 5678', '+84 24 8765 4321'],
+            details: ['+84 24 7777 8888', '+84 24 8765 4321'],
             description: 'Hỗ trợ 24/7',
         },
         {
@@ -59,11 +59,11 @@ function Contact() {
         {
             icon: <EnvironmentOutlined className="text-2xl text-red-600" />,
             title: 'Địa Chỉ',
-            details: ['123 Đường ABC, Quận 1', 'TP. Hồ Chí Minh, Việt Nam'],
-            description: 'Trung tâm thành phố',
+            details: ['288 Đường Cộng Hoà, Phường Mỹ Đình 1', 'Quận Nam Từ Liêm, Hà Nội, Việt Nam'],
+            description: 'Trung tâm Mỹ Đình',
         },
         {
-            icon: <ClockCircleOutlined className="text-2xl text-purple-600" />,
+            icon: <ClockCircleOutlined className="text-2xl text-primary-600" />,
             title: 'Giờ Làm Việc',
             details: ['Thứ 2 - Thứ 6: 8:00 - 18:00', 'Thứ 7 - CN: 9:00 - 17:00'],
             description: 'Lễ tân 24/7',
@@ -71,11 +71,11 @@ function Contact() {
     ];
 
     const socialMedia = [
-        { icon: <FacebookOutlined />, name: 'Facebook', color: 'text-blue-600', url: '#' },
-        { icon: <InstagramOutlined />, name: 'Instagram', color: 'text-pink-600', url: '#' },
-        { icon: <TwitterOutlined />, name: 'Twitter', color: 'text-blue-400', url: '#' },
+        { icon: <FacebookOutlined />, name: 'Facebook', color: 'text-primary-600', url: '#' },
+        { icon: <InstagramOutlined />, name: 'Instagram', color: 'text-accent-600', url: '#' },
+        { icon: <TwitterOutlined />, name: 'Twitter', color: 'text-primary-400', url: '#' },
         { icon: <YoutubeOutlined />, name: 'YouTube', color: 'text-red-600', url: '#' },
-        { icon: <LinkedinOutlined />, name: 'LinkedIn', color: 'text-blue-700', url: '#' },
+        { icon: <LinkedinOutlined />, name: 'LinkedIn', color: 'text-primary-700', url: '#' },
     ];
 
     const departments = [
@@ -106,14 +106,14 @@ function Contact() {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-sky-50">
             <header>
                 <Header />
             </header>
 
             <main>
                 {/* Hero Section */}
-                <div className="relative h-80 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 overflow-hidden">
+                <div className="relative h-80 bg-gradient-to-r from-blue-500 via-sky-600 to-blue-600 overflow-hidden">
                     <div className="absolute inset-0 bg-black opacity-30"></div>
                     <div className="relative z-10 flex items-center justify-center h-full">
                         <div className="text-center text-white max-w-4xl mx-auto px-4">
@@ -231,7 +231,7 @@ function Contact() {
                                             htmlType="submit"
                                             loading={loading}
                                             size="large"
-                                            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 border-none"
+                                            className="w-full bg-gradient-to-r from-primary-600 to-tertiary-600 border-none"
                                             icon={<SendOutlined />}
                                         >
                                             Gửi Tin Nhắn
@@ -280,13 +280,13 @@ function Contact() {
                             {departments.map((dept, index) => (
                                 <Col xs={24} sm={12} lg={6} key={index}>
                                     <Card className="h-full text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
-                                        <div className="text-3xl text-blue-600 mb-3">
+                                        <div className="text-3xl text-primary-600 mb-3">
                                             <HomeOutlined />
                                         </div>
                                         <h3 className="text-lg font-bold text-gray-800 mb-2">{dept.name}</h3>
                                         <p className="text-gray-600 text-sm mb-3">{dept.description}</p>
                                         <div className="space-y-1">
-                                            <p className="text-sm text-blue-600 font-semibold">{dept.phone}</p>
+                                            <p className="text-sm text-primary-600 font-semibold">{dept.phone}</p>
                                             <p className="text-sm text-gray-500">{dept.email}</p>
                                         </div>
                                     </Card>
@@ -296,29 +296,10 @@ function Contact() {
                     </div>
                 </div>
 
-                {/* Map Section */}
-                <div className="container mx-auto px-4 py-16">
-                    <div className="text-center mb-8">
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Vị Trí Khách Sạn</h2>
-                        <p className="text-xl text-gray-600">Tìm đường đến khách sạn của chúng tôi</p>
-                    </div>
-
-                    <Card className="shadow-lg">
-                        <div className="h-96 bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg flex items-center justify-center">
-                            <div className="text-center">
-                                <EnvironmentOutlined className="text-6xl text-blue-600 mb-4" />
-                                <h3 className="text-xl font-bold text-gray-800 mb-2">Bản Đồ Tương Tác</h3>
-                                <p className="text-gray-600 mb-4">123 Đường ABC, Quận 1, TP. Hồ Chí Minh</p>
-                                <Button type="primary" size="large">
-                                    Xem Trên Google Maps
-                                </Button>
-                            </div>
-                        </div>
-                    </Card>
-                </div>
+                {/* Map section removed as requested */}
 
                 {/* FAQ Section */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 py-16">
+                <div className="bg-gradient-to-r from-primary-50 to-tertiary-50 py-16">
                     <div className="container mx-auto px-4">
                         <div className="text-center mb-12">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4">Câu Hỏi Thường Gặp</h2>

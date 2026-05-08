@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Wifi, Tv, Wind, Users, Calendar, Check, MapPin, Building2, DoorOpen, Info, Star, User } from 'lucide-react';
 import { DatePicker } from 'antd';
+import { ShoppingCartOutlined } from '@ant-design/icons';
 import dayjs from 'dayjs';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -104,6 +105,8 @@ function DetailRoom() {
         fetchPreviewRoom();
     }, [id]);
 
+    
+
     const formatPrice = (price, discount = 0) =>
         new Intl.NumberFormat('vi-VN', {
             style: 'currency',
@@ -156,6 +159,27 @@ function DetailRoom() {
             start: dayjs(booking.checkInDate).startOf('day'),
             end: dayjs(booking.checkOutDate).startOf('day'),
         }));
+
+    const disabledCheckInDate = (current) => {
+        if (!current) return false;
+        const today = dayjs().startOf('day');
+        if (current.isBefore(today, 'day')) return true;
+        return blockedBookingRanges.some(({ start, end }) =>
+            current.isSame(start, 'day') || (current.isAfter(start, 'day') && current.isBefore(end, 'day')),
+        );
+    };
+
+    const disabledCheckOutDate = (current) => {
+        if (!current) return false;
+        const today = dayjs().startOf('day');
+        if (current.isBefore(today, 'day')) return true;
+        if (checkInDate) {
+            if (!current.isAfter(dayjs(checkInDate), 'day')) return true;
+        }
+        return blockedBookingRanges.some(({ start, end }) =>
+            current.isSame(start, 'day') || (current.isAfter(start, 'day') && current.isBefore(end, 'day')),
+        );
+    };
 
     const disabledBookingDate = (current) => {
         if (!current) return false;
@@ -230,7 +254,7 @@ function DetailRoom() {
     if (loading) {
         return (
             <div className="min-h-screen flex items-center justify-center">
-                <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600"></div>
+                <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary-600"></div>
             </div>
         );
     }
@@ -247,7 +271,7 @@ function DetailRoom() {
                         </p>
                         <button
                             onClick={() => window.history.back()}
-                            className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+                            className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition"
                         >
                             Quay lại
                         </button>
@@ -285,7 +309,7 @@ function DetailRoom() {
                                         key={index}
                                         onClick={() => setCurrentImageIndex(index)}
                                         className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 ${
-                                            currentImageIndex === index ? 'border-blue-500' : 'border-gray-200'
+                                            currentImageIndex === index ? 'border-primary-500' : 'border-gray-200'
                                         }`}
                                     >
                                         <img
@@ -303,15 +327,15 @@ function DetailRoom() {
                             <h2 className="text-xl font-semibold mb-4">Thông tin khách sạn</h2>
                             <div className="grid md:grid-cols-3 gap-4">
                                 <div className="flex items-center">
-                                    <MapPin className="w-6 h-6 text-blue-600 mr-2" />
-                                    <span className="text-gray-700">{roomData.address || 'Chưa cập nhật'}</span>
+                                    <MapPin className="w-6 h-6 text-primary-600 mr-2" />
+                                    <span className="text-gray-700">{roomData.address || 'Hà Nội'}</span>
                                 </div>
                                 <div className="flex items-center">
                                     <Building2 className="w-6 h-6 text-green-600 mr-2" />
                                     <span className="text-gray-700">Tầng: {roomData.floor}</span>
                                 </div>
                                 <div className="flex items-center">
-                                    <DoorOpen className="w-6 h-6 text-purple-600 mr-2" />
+                                    <DoorOpen className="w-6 h-6 text-primary-600 mr-2" />
                                     <span className="text-gray-700">Số phòng: {roomData.roomNumber}</span>
                                 </div>
                             </div>
@@ -323,7 +347,7 @@ function DetailRoom() {
                             <div className="grid md:grid-cols-3 gap-4">
                                 {roomData.amenities.map((amenity, index) => (
                                     <div key={index} className="flex items-center p-3 bg-gray-50 rounded-lg">
-                                        <div className="text-blue-600 mr-3">{getAmenityIcon(amenity)}</div>
+                                        <div className="text-primary-600 mr-3">{getAmenityIcon(amenity)}</div>
                                         <span className="font-medium">{amenity}</span>
                                     </div>
                                 ))}
@@ -383,8 +407,8 @@ function DetailRoom() {
                                                             className="w-12 h-12 rounded-full object-cover"
                                                         />
                                                     ) : (
-                                                        <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                                                            <User className="w-6 h-6 text-blue-600" />
+                                                        <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                                                            <User className="w-6 h-6 text-primary-600" />
                                                         </div>
                                                     )}
                                                 </div>
@@ -429,7 +453,7 @@ function DetailRoom() {
                         <div className="bg-white rounded-xl shadow-md p-6 sticky top-6">
                             <h1 className="text-2xl font-bold mb-2">{roomData.roomName}</h1>
                             <div className="flex items-baseline mb-4">
-                                <span className="text-3xl font-bold text-blue-600">
+                                <span className="text-3xl font-bold text-primary-600">
                                     {formatPrice(roomData.pricePerNight, roomData.discount)}
                                 </span>
                                 <span className="ml-2 text-gray-600">/ đêm</span>
@@ -458,13 +482,19 @@ function DetailRoom() {
                             {/* Booking Form */}
                             <div className="space-y-4 mb-6">
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                                        Chọn khoảng ngày
-                                    </label>
-                                    <RangePicker
-                                        value={dateRange}
-                                        onChange={handleDateRangeChange}
-                                        disabledDate={disabledBookingDate}
+                                    <label className="block text-sm font-medium text-gray-700 mb-1">Ngày nhận</label>
+                                    <DatePicker
+                                        value={checkInDate ? dayjs(checkInDate) : null}
+                                        onChange={(date) => setCheckInDate(date ? date.format('YYYY-MM-DD') : '')}
+                                        disabledDate={disabledCheckInDate}
+                                        format="YYYY-MM-DD"
+                                        className="w-full mb-3"
+                                    />
+                                    <label className="block text-sm font-medium text-gray-700 mb-1">Ngày trả</label>
+                                    <DatePicker
+                                        value={checkOutDate ? dayjs(checkOutDate) : null}
+                                        onChange={(date) => setCheckOutDate(date ? date.format('YYYY-MM-DD') : '')}
+                                        disabledDate={disabledCheckOutDate}
                                         format="YYYY-MM-DD"
                                         className="w-full"
                                     />
@@ -477,7 +507,7 @@ function DetailRoom() {
                                         <select
                                             value={numberOfAdults}
                                             onChange={(e) => setNumberOfAdults(e.target.value)}
-                                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
                                         >
                                             {[...Array(roomData.maxAdults)].map((_, i) => (
                                                 <option key={i} value={i + 1}>
@@ -491,7 +521,7 @@ function DetailRoom() {
                                         <select
                                             value={numberOfChildren}
                                             onChange={(e) => setNumberOfChildren(e.target.value)}
-                                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
                                         >
                                             {[...Array(roomData.maxChildren + 1)].map((_, i) => (
                                                 <option key={i} value={i}>
@@ -505,8 +535,8 @@ function DetailRoom() {
 
                             {/* Date Conflict Warning */}
                             {checkInDate && checkOutDate && checkDateConflict() && (
-                                <div className="bg-red-50 border border-red-200 rounded-lg p-3 mb-4">
-                                    <div className="flex items-center text-red-800 text-sm">
+                                <div className="bg-accent-50 border border-accent-200 rounded-lg p-3 mb-4">
+                                    <div className="flex items-center text-accent-800 text-sm">
                                         <Info className="w-4 h-4 mr-2" />
                                         <span>Ngày bạn chọn đã có người đặt. Vui lòng chọn ngày khác.</span>
                                     </div>
@@ -520,7 +550,7 @@ function DetailRoom() {
                                         <span>Số đêm</span>
                                         <span>{calculateNights()} đêm</span>
                                     </div>
-                                    <div className="flex justify-between text-lg font-semibold text-blue-600">
+                                    <div className="flex justify-between text-lg font-semibold text-primary-600">
                                         <span>Tổng cộng</span>
                                         <span>{formatPrice(totalPrice, roomData.discount)}</span>
                                     </div>
@@ -528,17 +558,16 @@ function DetailRoom() {
                             )}
 
                             <button
-                                className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
-                                disabled={checkInDate && checkOutDate && checkDateConflict()}
+                                className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center"
+                                disabled={!(checkInDate && checkOutDate) || checkDateConflict()}
                                 onClick={handleCreateCart}
                             >
+                                <ShoppingCartOutlined className="mr-2" />
                                 {(() => {
-                                    // Nếu đã chọn đủ ngày và bị trùng
                                     if (checkInDate && checkOutDate && checkDateConflict()) {
                                         return 'Ngày đã được đặt';
                                     }
 
-                                    // Trường hợp bình thường (bao gồm chưa chọn đủ ngày hoặc chọn ngày hợp lệ)
                                     return 'Đặt phòng ngay';
                                 })()}
                             </button>

@@ -91,7 +91,7 @@ function Banner() {
             <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 w-[95%] max-w-7xl">
                 <div className="bg-white/95 backdrop-blur-sm shadow-2xl rounded-2xl p-8 border border-white/20">
                     <div className="flex items-center mb-6">
-                        <MapPin className="text-blue-600 mr-2" size={24} />
+                        <MapPin className="text-primary-600 mr-2" size={24} />
                         <h2 className="text-2xl font-bold text-gray-800">Tìm Phòng Khách Sạn</h2>
                     </div>
 
@@ -106,7 +106,7 @@ function Banner() {
                                 type="date"
                                 value={checkInDate}
                                 onChange={(e) => setCheckInDate(e.target.value)}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover:border-blue-300"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 hover:border-primary-300"
                             />
                         </div>
 
@@ -121,7 +121,7 @@ function Banner() {
                                 value={checkOutDate}
                                 onChange={(e) => setCheckOutDate(e.target.value)}
                                 min={checkInDate}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover:border-blue-300"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 hover:border-primary-300"
                             />
                         </div>
 
@@ -134,7 +134,7 @@ function Banner() {
                             <select
                                 value={adults}
                                 onChange={(e) => setAdults(Number(e.target.value))}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover:border-blue-300 bg-white"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 hover:border-primary-300 bg-white"
                             >
                                 {[...Array(10)].map((_, i) => (
                                     <option key={i + 1} value={i + 1}>
@@ -153,7 +153,7 @@ function Banner() {
                             <select
                                 value={children}
                                 onChange={(e) => setChildren(Number(e.target.value))}
-                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover:border-blue-300 bg-white"
+                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 hover:border-primary-300 bg-white"
                             >
                                 {[...Array(6)].map((_, i) => (
                                     <option key={i} value={i}>
@@ -167,10 +167,10 @@ function Banner() {
                         <div className="lg:col-span-1">
                             <button
                                 onClick={handleSearch}
-                                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                                className="w-full bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                             >
                                 <Search size={20} />
-                                <span>Tìm Phòng</span>
+                                <span>Tìm kiếm</span>
                             </button>
                         </div>
                     </div>

@@ -70,8 +70,8 @@ function Sidebar({ collapsed, activeTab, setActiveTab, handleLogout }) {
             className="h-screen overflow-hidden"
             width={280}
             style={{
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                boxShadow: '0 10px 40px rgba(0, 0, 0, 0.2)',
+                background: 'linear-gradient(135deg, #0369A1 0%, #0EA5E9 100%)',
+                boxShadow: '0 10px 40px rgba(0, 0, 0, 0.15)',
                 position: 'relative',
                 zIndex: 1000,
             }}
@@ -80,9 +80,9 @@ function Sidebar({ collapsed, activeTab, setActiveTab, handleLogout }) {
             <div
                 className="h-24 flex items-center justify-center relative"
                 style={{
-                    background: 'rgba(255, 255, 255, 0.1)',
+                    background: 'rgba(255, 255, 255, 0.06)',
                     backdropFilter: 'blur(10px)',
-                    borderBottom: '1px solid rgba(255, 255, 255, 0.2)',
+                    borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
                     margin: '0 16px 24px',
                     marginTop: '16px',
                     borderRadius: '16px',
@@ -113,6 +113,7 @@ function Sidebar({ collapsed, activeTab, setActiveTab, handleLogout }) {
                         border: 'none',
                         background: 'transparent',
                         fontSize: '14px',
+                        color: 'rgba(255,255,255,0.95)'
                     }}
                     theme="dark"
                     className="custom-menu"
@@ -124,12 +125,12 @@ function Sidebar({ collapsed, activeTab, setActiveTab, handleLogout }) {
                                 height: '52px',
                                 borderRadius: '12px',
                                 margin: '8px 0',
-                                background: activeTab === item.key ? 'rgba(255, 255, 255, 0.2)' : 'transparent',
+                                background: activeTab === item.key ? 'rgba(255, 255, 255, 0.08)' : 'transparent',
                                 border:
                                     activeTab === item.key
-                                        ? '1px solid rgba(255, 255, 255, 0.3)'
+                                        ? '1px solid rgba(255, 255, 255, 0.12)'
                                         : '1px solid transparent',
-                                backdropFilter: activeTab === item.key ? 'blur(10px)' : 'none',
+                                backdropFilter: activeTab === item.key ? 'blur(6px)' : 'none',
                                 transition: 'all 0.3s ease',
                             }}
                             className="menu-item-custom"
@@ -138,7 +139,7 @@ function Sidebar({ collapsed, activeTab, setActiveTab, handleLogout }) {
                                 <div
                                     className="p-2 rounded-lg flex items-center justify-center"
                                     style={{
-                                        background: activeTab === item.key ? item.color : 'rgba(255, 255, 255, 0.1)',
+                                        background: activeTab === item.key ? item.color : 'rgba(255, 255, 255, 0.06)',
                                         width: '36px',
                                         height: '36px',
                                         transition: 'all 0.3s ease',
@@ -166,9 +167,9 @@ function Sidebar({ collapsed, activeTab, setActiveTab, handleLogout }) {
                     <div
                         className="flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all duration-300 hover:scale-105"
                         style={{
-                            background: 'rgba(239, 68, 68, 0.2)',
-                            border: '1px solid rgba(239, 68, 68, 0.3)',
-                            backdropFilter: 'blur(10px)',
+                            background: 'rgba(255, 255, 255, 0.04)',
+                            border: '1px solid rgba(255, 255, 255, 0.06)',
+                            backdropFilter: 'blur(6px)',
                         }}
                         onClick={handleLogout}
                         onMouseEnter={(e) => {

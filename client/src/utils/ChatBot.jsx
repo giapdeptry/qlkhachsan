@@ -131,7 +131,7 @@ function Chatbot() {
             {isOpen ? (
                 <div className="bg-white rounded-2xl shadow-2xl w-[400px] h-[650px] flex flex-col border border-gray-100 overflow-hidden">
                     {/* Header */}
-                    <div className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white p-4 relative">
+                    <div className="bg-gradient-to-r from-primary-600 via-tertiary-600 to-primary-700 text-white p-4 relative">
                         <div className="absolute inset-0 bg-black/10"></div>
                         <div className="relative flex justify-between items-center">
                             <div className="flex items-center gap-3">
@@ -177,7 +177,7 @@ function Chatbot() {
                                         <div
                                             className={`rounded-2xl px-4 py-3 shadow-sm ${
                                                 message.sender === 'user'
-                                                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white'
+                                                    ? 'bg-gradient-to-r from-primary-500 to-primary-600 text-white'
                                                     : 'bg-white border border-gray-200'
                                             }`}
                                         >
@@ -227,7 +227,7 @@ function Chatbot() {
                                 onKeyPress={handleKeyPress}
                                 placeholder="💬 Nhập tin nhắn của bạn..."
                                 autoSize={{ minRows: 1, maxRows: 4 }}
-                                className="flex-1 rounded-xl border-gray-200 focus:border-purple-500 focus:shadow-md transition-all"
+                                className="flex-1 rounded-xl border-gray-200 focus:border-primary-500 focus:shadow-md transition-all"
                                 disabled={isLoading}
                                 autoFocus
                             />
@@ -236,7 +236,7 @@ function Chatbot() {
                                 icon={<SendOutlined />}
                                 onClick={handleSend}
                                 disabled={isLoading || !inputValue.trim()}
-                                className="bg-gradient-to-r from-purple-500 to-pink-500 border-0 rounded-xl shadow-md hover:shadow-lg transition-all"
+                                className="bg-gradient-to-r from-accent-500 to-accent-600 border-0 rounded-xl shadow-md hover:shadow-lg transition-all"
                                 size="large"
                             />
                         </div>
@@ -245,7 +245,7 @@ function Chatbot() {
                                 💡 Nhấn Enter để gửi, Shift + Enter để xuống dòng
                             </Text>
                             {!dataUser._id && (
-                                <Text className="text-xs text-orange-500">
+                                <Text className="text-xs text-accent-500">
                                     🔐 Đăng nhập để sử dụng đầy đủ tính năng
                                 </Text>
                             )}
@@ -257,7 +257,7 @@ function Chatbot() {
                     <div className="relative">
                         <button
                             onClick={() => setIsOpen(true)}
-                            className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 hover:from-purple-600 hover:via-pink-600 hover:to-blue-600 flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-110"
+                            className="w-16 h-16 rounded-full bg-gradient-to-r from-primary-500 via-tertiary-500 to-primary-600 hover:from-primary-600 hover:via-tertiary-600 hover:to-primary-700 flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-110"
                         >
                             <MessageOutlined className="text-white text-2xl" />
                         </button>

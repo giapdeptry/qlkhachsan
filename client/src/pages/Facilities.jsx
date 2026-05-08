@@ -37,7 +37,7 @@ function Facilities() {
         {
             id: 1,
             title: 'Spa & Wellness',
-            icon: <HeartOutlined className="text-4xl text-pink-500" />,
+            icon: <HeartOutlined className="text-4xl text-accent-500" />,
             description: 'Thư giãn hoàn hảo với các dịch vụ spa cao cấp',
             features: ['Massage trị liệu', 'Xông hơi', 'Tắm bùn', 'Chăm sóc da'],
             images: [
@@ -53,7 +53,7 @@ function Facilities() {
         {
             id: 2,
             title: 'Nhà Hàng',
-            icon: <CoffeeOutlined className="text-4xl text-orange-500" />,
+            icon: <CoffeeOutlined className="text-4xl text-accent-600" />,
             description: 'Ẩm thực đa dạng từ quốc tế đến địa phương',
             features: ['Buffet sáng', 'Món Á - Âu', 'Hải sản tươi sống', 'Rượu vang cao cấp'],
             images: [
@@ -69,7 +69,7 @@ function Facilities() {
         {
             id: 3,
             title: 'Hồ Bơi',
-            icon: <TrophyOutlined className="text-4xl text-blue-500" />,
+            icon: <TrophyOutlined className="text-4xl text-primary-500" />,
             description: 'Hồ bơi vô cực với view biển tuyệt đẹp',
             features: ['Hồ bơi vô cực', 'Jacuzzi', 'Bar hồ bơi', 'Ghế tắm nắng'],
             images: [
@@ -101,7 +101,7 @@ function Facilities() {
         {
             id: 5,
             title: 'Dịch Vụ Lễ Tân',
-            icon: <EnvironmentOutlined className="text-4xl text-purple-500" />,
+            icon: <EnvironmentOutlined className="text-4xl text-primary-500" />,
             description: 'Hỗ trợ 24/7 với đội ngũ chuyên nghiệp',
             features: ['Check-in/out', 'Đặt tour', 'Đặt xe', 'Hướng dẫn du lịch'],
             images: [
@@ -162,14 +162,14 @@ function Facilities() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-sky-50">
             <header>
                 <Header />
             </header>
 
             <main className="">
                 {/* Hero Section */}
-                <div className="relative h-96 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 overflow-hidden">
+                <div className="relative h-96 bg-gradient-to-r from-blue-500 via-sky-600 to-blue-600 overflow-hidden">
                     <div className="absolute inset-0 bg-black opacity-30"></div>
                     <div className="relative z-10 flex items-center justify-center h-full">
                         <div className="text-center text-white max-w-4xl mx-auto px-4">
@@ -201,7 +201,7 @@ function Facilities() {
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
                             <div className="text-center">
-                                <div className="text-4xl text-blue-600 mb-3">
+                                <div className="text-4xl text-primary-600 mb-3">
                                     <CheckCircleOutlined />
                                 </div>
                                 <h3 className="text-xl font-semibold mb-2">Chất Lượng Cao</h3>
@@ -215,7 +215,7 @@ function Facilities() {
                                 <p className="text-gray-600">Hỗ trợ mọi lúc mọi nơi</p>
                             </div>
                             <div className="text-center">
-                                <div className="text-4xl text-purple-600 mb-3">
+                                <div className="text-4xl text-primary-600 mb-3">
                                     <CrownOutlined />
                                 </div>
                                 <h3 className="text-xl font-semibold mb-2">Đẳng Cấp VIP</h3>
@@ -239,7 +239,7 @@ function Facilities() {
                             {additionalServices.map((service, index) => (
                                 <Col xs={12} sm={8} md={6} lg={4} key={index}>
                                     <div className="text-center p-4 hover:bg-gray-50 rounded-lg transition-colors duration-300">
-                                        <div className="text-3xl text-blue-600 mb-3">{service.icon}</div>
+                                        <div className="text-3xl text-primary-600 mb-3">{service.icon}</div>
                                         <h4 className="font-semibold text-gray-800 mb-1">{service.title}</h4>
                                         <p className="text-sm text-gray-600">{service.description}</p>
                                     </div>
@@ -250,7 +250,7 @@ function Facilities() {
                 </div>
 
                 {/* Conclusion Section */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 py-16">
+                <div className="bg-gradient-to-r from-primary-50 to-tertiary-50 py-16">
                     <div className="container mx-auto px-4">
                         <div className="text-center max-w-4xl mx-auto">
                             <h2 className="text-3xl font-bold text-gray-800 mb-6">Cam Kết Chất Lượng Dịch Vụ</h2>
@@ -262,7 +262,7 @@ function Facilities() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                                 <div className="bg-white p-6 rounded-xl shadow-lg">
                                     <div className="text-center">
-                                        <div className="text-4xl text-blue-600 mb-4">
+                                        <div className="text-4xl text-primary-600 mb-4">
                                             <StarOutlined />
                                         </div>
                                         <h3 className="text-xl font-semibold mb-3">Đánh Giá Cao</h3>

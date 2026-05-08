@@ -235,7 +235,7 @@ function OrderHistory() {
                         <div className="text-sm font-medium">{firstRoom?.room?.roomName || 'N/A'}</div>
                         <div className="text-xs text-gray-500">Phòng {firstRoom?.room?.roomNumber || 'N/A'}</div>
                         {rooms?.length > 1 && (
-                            <div className="text-xs text-blue-500">+{rooms.length - 1} phòng khác</div>
+                            <div className="text-xs text-primary-500">+{rooms.length - 1} phòng khác</div>
                         )}
                     </div>
                 );
@@ -363,8 +363,8 @@ function OrderHistory() {
     return (
         <Card className="shadow-md">
             <div className="flex items-center gap-2 mb-6">
-                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <ShoppingOutlined className="text-xl text-blue-500" />
+                <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center">
+                    <ShoppingOutlined className="text-xl text-primary-500" />
                 </div>
                 <div>
                     <h2 className="text-2xl font-bold text-gray-800">Đặt phòng của tôi</h2>
@@ -424,7 +424,7 @@ function OrderHistory() {
                     className="py-12"
                 >
                     <Link to="/">
-                        <Button type="primary" className="mt-4 bg-blue-500">
+                        <Button type="primary" className="mt-4 bg-primary-500">
                             Đặt phòng ngay
                         </Button>
                     </Link>
@@ -434,7 +434,7 @@ function OrderHistory() {
             <Modal
                 title={
                     <div className="flex items-center gap-2">
-                        <ShoppingOutlined className="text-blue-500" />
+                        <ShoppingOutlined className="text-primary-500" />
                         <span>Chi tiết đặt phòng</span>
                         <Tag
                             className="ml-2"
@@ -637,7 +637,7 @@ function OrderHistory() {
                                                         {formatDate(roomBooking.checkInDate)} -{' '}
                                                         {formatDate(roomBooking.checkOutDate)}
                                                     </div>
-                                                    <div className="text-blue-600 mt-2 text-sm">
+                                                    <div className="text-primary-600 mt-2 text-sm">
                                                         Nhấp để đánh giá phòng này
                                                     </div>
                                                 </div>

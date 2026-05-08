@@ -110,7 +110,7 @@ function CouponManagement() {
             dataIndex: 'nameCoupon',
             key: 'nameCoupon',
             render: (text) => (
-                <div className="flex items-center gap-2 text-blue-600 font-mono font-semibold">
+                <div className="flex items-center gap-2 text-primary-600 font-mono font-semibold">
                     <TagOutlined />
                     <span>{text}</span>
                 </div>

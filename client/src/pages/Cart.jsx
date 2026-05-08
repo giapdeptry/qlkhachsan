@@ -116,7 +116,7 @@ function Cart() {
             <div className="min-h-screen bg-gray-50">
                 <Header />
                 <div className="flex items-center justify-center h-64">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div>
                 </div>
                 <Footer />
             </div>
@@ -193,7 +193,7 @@ function Cart() {
                                                             type="text"
                                                             icon={<EditOutlined />}
                                                             onClick={() => handleEditRoom(room, index)}
-                                                            className="text-blue-600 hover:text-blue-800"
+                                                            className="text-primary-600 hover:text-primary-800"
                                                         />
                                                         <Popconfirm
                                                             title="Xóa phòng khỏi giỏ hàng?"
@@ -214,7 +214,7 @@ function Cart() {
                                                 <Row gutter={[16, 8]} className="mb-3">
                                                     <Col xs={12} sm={6}>
                                                         <div>
-                                                            <CalendarOutlined className="text-blue-600 mr-1" />
+                                                            <CalendarOutlined className="text-primary-600 mr-1" />
                                                             <Text type="secondary" className="text-xs">
                                                                 Nhận phòng
                                                             </Text>
@@ -225,7 +225,7 @@ function Cart() {
                                                     </Col>
                                                     <Col xs={12} sm={6}>
                                                         <div>
-                                                            <CalendarOutlined className="text-blue-600 mr-1" />
+                                                            <CalendarOutlined className="text-primary-600 mr-1" />
                                                             <Text type="secondary" className="text-xs">
                                                                 Trả phòng
                                                             </Text>
@@ -318,7 +318,7 @@ function Cart() {
                                     <Text strong className="text-lg">
                                         Tổng cộng:
                                     </Text>
-                                    <Text strong className="text-xl text-blue-600">
+                                    <Text strong className="text-xl text-primary-600">
                                         {formatPrice(cart.cart.totalPrice)}
                                     </Text>
                                 </div>

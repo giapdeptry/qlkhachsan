@@ -144,7 +144,7 @@ function Payment() {
         return (
             <div>
                 <Header />
-                <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex justify-center items-center">
+                <div className="min-h-screen bg-gradient-to-br from-primary-50 to-accent-100 flex justify-center items-center">
                     <div className="text-center bg-white p-8 rounded-2xl shadow-lg">
                         <p className="text-gray-600 text-lg">Không có phòng nào trong giỏ hàng</p>
                         <Link to="/">
@@ -160,7 +160,7 @@ function Payment() {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="min-h-screen bg-gradient-to-br from-primary-50 to-accent-100">
             <Header />
             <div className="w-[90%] mx-auto px-4 py-8">
                 <div className="mb-6 text-center">
@@ -247,7 +247,7 @@ function Payment() {
                                                                         .map((amenity, idx) => (
                                                                             <span
                                                                                 key={idx}
-                                                                                className="bg-blue-100 text-blue-700 px-2 py-0.5 rounded text-xs"
+                                                                                className="bg-primary-100 text-primary-700 px-2 py-0.5 rounded text-xs"
                                                                             >
                                                                                 {amenity}
                                                                             </span>
@@ -269,14 +269,14 @@ function Payment() {
 
                                 {/* Summary */}
                                 <div className="border-t pt-4">
-                                    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-3 rounded-xl">
+                                    <div className="bg-gradient-to-r from-primary-50 to-accent-50 p-3 rounded-xl">
                                         <div className="flex justify-between items-center mb-2">
                                             <span className="text-sm text-gray-600">Tổng số đêm:</span>
                                             <span className="font-semibold text-blue-600">{nights} đêm</span>
                                         </div>
                                         <div className="flex justify-between items-center">
                                             <span className="text-base font-bold text-gray-800">Tổng cộng:</span>
-                                            <span className="text-lg font-bold text-blue-600">
+                                            <span className="text-lg font-bold text-primary-600">
                                                 {formatPrice(cart.totalPrice)}
                                             </span>
                                         </div>
@@ -292,7 +292,7 @@ function Payment() {
                                 <Card className="shadow-xl rounded-3xl border-0">
                                     <div className="p-6">
                                         <h2 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                                            <UserOutlined className="text-blue-600" />
+                                            <UserOutlined className="text-primary-600" />
                                             Thông tin khách hàng
                                         </h2>
 
@@ -426,7 +426,7 @@ function Payment() {
                                                         <Radio value="vnpay" className="w-full">
                                                             <div className="flex items-center gap-3 p-3 border-2 border-gray-200 rounded-xl hover:border-blue-400 hover:shadow-md transition-all duration-300 cursor-pointer bg-white">
                                                                 <img
-                                                                    className="w-10 h-10 object-contain rounded-lg bg-blue-600 p-1"
+                                                                    className="w-10 h-10 object-contain rounded-lg bg-primary-600 p-1"
                                                                     src="https://vnpay.vn/s1/statics.vnpay.vn/2023/6/0oxhzjmxbksr1686814746087.png"
                                                                     alt="VNPay"
                                                                 />

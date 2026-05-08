@@ -107,7 +107,7 @@ function ForgotPassword() {
                             </Form.Item>
 
                             <div className="text-center">
-                                <a href="/login" className="text-blue-500 hover:text-blue-700">
+                                <a href="/login" className="text-primary-500 hover:text-primary-700">
                                     Quay lại đăng nhập
                                 </a>
                             </div>
@@ -180,7 +180,7 @@ function ForgotPassword() {
                                 <Button
                                     type="link"
                                     onClick={() => setIsEmailSent(false)}
-                                    className="text-blue-500 hover:text-blue-700"
+                                    className="text-primary-500 hover:text-primary-700"
                                 >
                                     Quay lại nhập email
                                 </Button>

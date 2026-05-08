@@ -460,7 +460,7 @@ function OrderManager() {
             width: 250,
             render: (_, record) => (
                 <div className="flex items-center space-x-3">
-                    <Avatar size={32} icon={<UserOutlined />} className="bg-blue-500" />
+                    <Avatar size={32} icon={<UserOutlined />} className="bg-primary-500" />
                     <div>
                         <div className="text-sm font-medium text-gray-900">{record.fullName}</div>
                         <div className="text-xs text-gray-500">{record.email}</div>
@@ -479,7 +479,7 @@ function OrderManager() {
                         <div className="text-sm font-medium">{firstRoom?.room?.roomName || 'N/A'}</div>
                         <div className="text-xs text-gray-500">Phòng {firstRoom?.room?.roomNumber || 'N/A'}</div>
                         {record.rooms?.length > 1 && (
-                            <div className="text-xs text-blue-500">+{record.rooms.length - 1} phòng khác</div>
+                            <div className="text-xs text-primary-500">+{record.rooms.length - 1} phòng khác</div>
                         )}
                     </div>
                 );
@@ -533,7 +533,7 @@ function OrderManager() {
             key: 'totalPrice',
             width: 120,
             render: (price) => (
-                <Text strong className="text-blue-600 text-sm">
+                <Text strong className="text-primary-600 text-sm">
                     {formatPrice(price)}
                 </Text>
             ),
@@ -605,7 +605,7 @@ function OrderManager() {
                                 title="Tổng đơn hàng"
                                 value={stats.total}
                                 prefix={<ShoppingOutlined />}
-                                valueStyle={{ color: '#1890ff' }}
+                                valueStyle={{ color: '#22c55e' }}
                             />
                         </Card>
                     </Col>
@@ -621,7 +621,7 @@ function OrderManager() {
                     </Col>
                     <Col xs={24} sm={12} md={8} lg={4}>
                         <Card className="text-center">
-                            <Statistic title="Hoàn thành" value={stats.completed} valueStyle={{ color: '#1890ff' }} />
+                            <Statistic title="Hoàn thành" value={stats.completed} valueStyle={{ color: '#22c55e' }} />
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} md={8} lg={4}>
@@ -857,7 +857,7 @@ function OrderManager() {
                                     </Space>
                                 </Col>
                                 <Col>
-                                    <Title level={4} className="text-blue-600 mb-0 text-lg">
+                                    <Title level={4} className="text-primary-600 mb-0 text-lg">
                                         {formatPrice(selectedPayment.totalPrice)}
                                     </Title>
                                 </Col>
